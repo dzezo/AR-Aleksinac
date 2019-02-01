@@ -1,0 +1,10 @@
+{
+	"items": 
+	[
+		{ "key": "txt_title", "value": "Istorijski vodič kroz Aleksinac" },
+		{ "key": "btn_aboutCity", "value": "O gradu" },
+		{ "key": "btn_augmentedReality", "value": "Povratak u prošlost" },
+		{ "key": "btn_memorableCitizens", "value": "Znameniti Aleksinčani" },
+		{ "key": "btn_stories", "value": "Priče" }
+	]
+}

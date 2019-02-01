@@ -1,0 +1,10 @@
+{
+	"items": 
+	[
+		{ "key": "txt_title", "value": "Историјски водич кроз Алексинац" },
+		{ "key": "btn_aboutCity", "value": "О граду" },
+		{ "key": "btn_augmentedReality", "value": "Повратак у прошлост" },
+		{ "key": "btn_memorableCitizens", "value": "Знаменити Алексинчани" },
+		{ "key": "btn_stories", "value": "Приче" }
+	]
+}
