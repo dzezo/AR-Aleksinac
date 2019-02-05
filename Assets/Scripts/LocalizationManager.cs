@@ -10,8 +10,6 @@ public class LocalizationManager : MonoBehaviour
 
     private Dictionary<string, string> localizedText;
 
-    private string missingTextString = "Text Not Found";
-
     private bool isReady = false;
 
     // Funkcija koja osigurava da u sistemu postoji samo jedna instanca LocalizedManager objekata
@@ -55,10 +53,10 @@ public class LocalizationManager : MonoBehaviour
     // Funkcija za citanje recnika koja vraca tekst mapiran na prosledjeni kljuc
     public string GetLocalizedValue(string key)
     {
-        string result = missingTextString;
+        string text = "Text Not Found";
         if (localizedText.ContainsKey(key))
-            result = localizedText[key];
-        return result;
+            text = localizedText[key];
+        return text;
     }
 
     // Funkcija kojom se ispituje da li je aplikacija spremna za upotrebu
