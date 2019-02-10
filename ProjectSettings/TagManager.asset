@@ -7,6 +7,8 @@ TagManager:
   - MasterCanvas
   - CitizenList
   - Citizen
+  - Battlefield
+  - Battle
   layers:
   - Default
   - TransparentFX
