@@ -6,7 +6,7 @@ SpriteAtlas:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ImagesAtlas
+  m_Name: HeadersAtlas
   m_EditorData:
     serializedVersion: 2
     textureSettings:
@@ -37,35 +37,31 @@ SpriteAtlas:
       padding: 4
       blockOffset: 1
       allowAlphaSplitting: 0
-      enableRotation: 1
-      enableTightPacking: 0
+      enableRotation: 0
+      enableTightPacking: 1
     variantMultiplier: 1
     packables:
-    - {fileID: 102900000, guid: 50e9f9416b69bd84b934581224dacaac, type: 3}
-    totalSpriteSurfaceArea: 10165180
+    - {fileID: 102900000, guid: 8f331f22c06c7aa45a91dcaf5a796095, type: 3}
+    totalSpriteSurfaceArea: 8422800
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
-  - {fileID: 21300000, guid: 41e5dd50868a1e74b9d47f08df45daf6, type: 3}
+  - {fileID: 21300000, guid: def647d0f00d43d458704159ed53ef3f, type: 3}
   - {fileID: 21300000, guid: 6dc86113f15530f468e0ab793730eb5c, type: 3}
-  - {fileID: 21300000, guid: adfa00d372909584b8cb762d2deb20ed, type: 3}
-  - {fileID: 21300000, guid: 308153c41ca5bda46bc655fcad740393, type: 3}
-  - {fileID: 21300000, guid: 68e8644613dfcd347ae3405073b3ff58, type: 3}
-  - {fileID: 21300000, guid: a92ab979ddccfd645bb9c9557b4f3f3b, type: 3}
-  - {fileID: 21300000, guid: 66d9639b51c4ae748ad9e69ab3ca43ba, type: 3}
-  - {fileID: 21300000, guid: 69fe051c1a8d3a14c9028882fb337a27, type: 3}
-  - {fileID: 21300000, guid: 96b340bd15c42524e9ed0d1afddd3ac0, type: 3}
-  - {fileID: 21300000, guid: ed08532ff7cf966458d8ad8ee685e32d, type: 3}
+  - {fileID: 21300000, guid: 136c9145674c076468e3f7842ea65e46, type: 3}
+  - {fileID: 21300000, guid: 7dbb243604085944caf76fb511677fcc, type: 3}
+  - {fileID: 21300000, guid: ea0130e750c631949a11fb06608c48ad, type: 3}
+  - {fileID: 21300000, guid: dfd8b0eb802d2794688f361a6de4a481, type: 3}
+  - {fileID: 21300000, guid: db31d51da6d97e0469f0d6c40328edd5, type: 3}
+  - {fileID: 21300000, guid: 29f91b9e7a6e42c44820178896da79b1, type: 3}
   m_PackedSpriteNamesToIndex:
-  - 01.Menu_2
-  - 04.mapa
-  - 01.Menu_naslovna
-  - 01.Menu_4
-  - background
-  - 01.Menu_3
   - 02.O_gradu_naslovna
+  - 04.mapa
+  - RistaPrendic1800-1892
+  - 01.Menu_naslovna
   - 03.Licnosti_naslovna
+  - 05.Porvratak_naslovna
   - 04.U_ratu_naslovna
-  - 01.Menu_1
-  m_Tag: ImagesAtlas
+  - Gornji Adrovac 1876
+  m_Tag: HeadersAtlas
   m_IsVariant: 0
