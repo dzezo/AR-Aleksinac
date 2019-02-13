@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: RistaPrendicAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 21c303e85255a444c8852973c62cf4cd, type: 3}
+    totalSpriteSurfaceArea: 6631372
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 820a90003d94fb444b4e9aa6f883aeda, type: 3}
+  - {fileID: 21300000, guid: b2528c1076ce9e742b65061ffc23e6ad, type: 3}
+  - {fileID: 21300000, guid: c8f08ad0da39ee64c8cfccf04ed523c8, type: 3}
+  - {fileID: 21300000, guid: f78b645330737424991f6875d07b9ca8, type: 3}
+  - {fileID: 21300000, guid: 3ece9e89e58615b4eb5b8684b09f59a6, type: 3}
+  - {fileID: 21300000, guid: 5dfb894adede2ea4b8499ba35cd5a92c, type: 3}
+  - {fileID: 21300000, guid: 19be145d769366f4dabb09798e993cb0, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Rista Prendic na konju
+  - Rista Prendic
+  - Pasos Riste Prendica
+  - Risa Prendic sa zenom
+  - Kuca Riste Prendica sa Aleksinackom crkvom u pozadnini
+  - Tatar Rista Prendic i surudzija 1861.
+  - Kuca Riste Prendica
+  m_Tag: RistaPrendicAtlas
+  m_IsVariant: 0

@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GornjiAdrovacAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 71142592b1eb8b14b8b008efacea33d2, type: 3}
+    totalSpriteSurfaceArea: 8907011
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 2c1e2e00ebd54d741b10363a474eaf2b, type: 3}
+  - {fileID: 21300000, guid: a682b182bae9ea647b80542450aaa103, type: 3}
+  - {fileID: 21300000, guid: 564009244054bec4697df25d1ba02b41, type: 3}
+  - {fileID: 21300000, guid: b6fdbfb436e2fe84c9a37f60e28968ec, type: 3}
+  - {fileID: 21300000, guid: 3adb61753f726d74abc7b97c66544e72, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Prenost tela pukovnika Rajevskog
+  - Pukovnik Nikolaj Nikolajevic Rajevski
+  - Spomenik na mestu pogibije Rajevskog, postavljen 1887.
+  - Vojna karta bitke kod Adrovca
+  - Crkva Sv. Trojice i kapa Rajevskog sa rupom od metka
+  m_Tag: GornjiAdrovacAtlas
+  m_IsVariant: 0

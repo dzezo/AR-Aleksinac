@@ -9,6 +9,7 @@ TagManager:
   - Citizen
   - Battlefield
   - Battle
+  - Gallery
   layers:
   - Default
   - TransparentFX
