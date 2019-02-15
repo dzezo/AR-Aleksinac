@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sumatovac
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 21b88e5edaebe1f42bbc051a31c3a43f, type: 3}
+    totalSpriteSurfaceArea: 4668000
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 4eeeff81adf41a34d9d009dc5686c575, type: 3}
+  - {fileID: 21300000, guid: 070af47633dca1d469c90758394a0c63, type: 3}
+  - {fileID: 21300000, guid: 05c1a0181d77aad43b574ef2e1d963c2, type: 3}
+  - {fileID: 21300000, guid: 6583d4bfd91365545840ba1d2a4d31a6, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Crkva Sv. Trojice na Sumatovcu
+  - Pogibija kapetana Zivana Protica
+  - Spomen obelezje na Sumatovcu
+  - Vojna karta bitke na Sumatovcu
+  m_Tag: Sumatovac
+  m_IsVariant: 0

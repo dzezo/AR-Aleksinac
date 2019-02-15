@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: OstaleLicnosti
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: d9168216d58c70c4f9f368cb0addb693, type: 3}
+    totalSpriteSurfaceArea: 12387152
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: e0a873114b522c745b1c7bf9baf288b3, type: 3}
+  - {fileID: 21300000, guid: 6746b821007281b498c2c27ad0acffb9, type: 3}
+  - {fileID: 21300000, guid: 406cb191e90187840b63a84a613b2b39, type: 3}
+  - {fileID: 21300000, guid: 3bd9bea16b6a2324eb92cddb91f70d1d, type: 3}
+  - {fileID: 21300000, guid: 30ffb88284da090499a1eb1ecea6937a, type: 3}
+  - {fileID: 21300000, guid: 6560f9b36c25e3a42aa186022c0b0238, type: 3}
+  - {fileID: 21300000, guid: e0082cd63e145d249b76e2e90f3ac028, type: 3}
+  - {fileID: 21300000, guid: 417747387f2e90649b7fe61d4281b01a, type: 3}
+  - {fileID: 21300000, guid: db646fe818b095f45813c3d5f2c5a290, type: 3}
+  - {fileID: 21300000, guid: cc22e1b94a08940479ba01917b559b28, type: 3}
+  - {fileID: 21300000, guid: 579f80bbf5d57024ab6cebe0cf08dcd2, type: 3}
+  - {fileID: 21300000, guid: 8ad2ceac9a4ca9444ab40ca0daabc806, type: 3}
+  - {fileID: 21300000, guid: d5d0422e0ddbe944a82f08ef18fd23cc, type: 3}
+  - {fileID: 21300000, guid: 0834004ed9a3c4d4a9043ed02ba16d84, type: 3}
+  - {fileID: 21300000, guid: af52686fbc1f29f41bcf5595d7ef51c7, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Prota Stevan Dimitrijevic 2 - manja
+  - KNEZ MILOJKOVIC 2 MISA - foto Vera - manja
+  - Budimir Hristodulo 1 - manja
+  - Kosta Tausanovic 2 - manja
+  - Mihailo Rasic
+  - Prota Stevan Dimitrijevic 1 - manja
+  - Milan Pecic - Manja
+  - KNEZ MILOJKOVIC Dobroslav - foto Vera - manja
+  - Budimir Hristodulo 3 - Mauzolej na osrvu Vido - manja
+  - Milos Trivunac - manja
+  - Borislav Stevanovic - manja
+  - Budimir Hristodulo 2 - Zejtinlik - manja
+  - Tihomir Djordjevic - manja
+  - Kostadin Kosta Stojanovic - manja
+  - Kosta Tausanovic 1 - manja
+  m_Tag: OstaleLicnosti
+  m_IsVariant: 0

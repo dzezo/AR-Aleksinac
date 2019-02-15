@@ -31,24 +31,24 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 21c303e85255a444c8852973c62cf4cd, type: 3}
-    totalSpriteSurfaceArea: 6631372
+    totalSpriteSurfaceArea: 5374911
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
-  - {fileID: 21300000, guid: 820a90003d94fb444b4e9aa6f883aeda, type: 3}
-  - {fileID: 21300000, guid: b2528c1076ce9e742b65061ffc23e6ad, type: 3}
-  - {fileID: 21300000, guid: c8f08ad0da39ee64c8cfccf04ed523c8, type: 3}
-  - {fileID: 21300000, guid: f78b645330737424991f6875d07b9ca8, type: 3}
-  - {fileID: 21300000, guid: 3ece9e89e58615b4eb5b8684b09f59a6, type: 3}
-  - {fileID: 21300000, guid: 5dfb894adede2ea4b8499ba35cd5a92c, type: 3}
-  - {fileID: 21300000, guid: 19be145d769366f4dabb09798e993cb0, type: 3}
+  - {fileID: 21300000, guid: c0fd4970c30ba6c4cb45f00d362e9b75, type: 3}
+  - {fileID: 21300000, guid: 850a82e542539c247afd97d242803917, type: 3}
+  - {fileID: 21300000, guid: ce6c5c173183d104a8918fae72dba41d, type: 3}
+  - {fileID: 21300000, guid: bc5bdf17e2114134abb1586044842982, type: 3}
+  - {fileID: 21300000, guid: bff4519ad1f71d147872f03dd31eea0f, type: 3}
+  - {fileID: 21300000, guid: be9cb0db6cb42974886673c17d0df6f0, type: 3}
+  - {fileID: 21300000, guid: 3931acbf18044444f89ff183c3e8e378, type: 3}
   m_PackedSpriteNamesToIndex:
-  - Rista Prendic na konju
-  - Rista Prendic
-  - Pasos Riste Prendica
-  - Risa Prendic sa zenom
-  - Kuca Riste Prendica sa Aleksinackom crkvom u pozadnini
-  - Tatar Rista Prendic i surudzija 1861.
-  - Kuca Riste Prendica
+  - Rista Prendic 2 - manja
+  - Rista Prendic - kuca
+  - Rista Prendic - kuca sa crkvom
+  - Rista Prendic 4 - pasos - manja
+  - Rista Prendic 1 - manja
+  - Rista Prendic 3 - manja
+  - Rista Prendic 0 - manja
   m_Tag: RistaPrendicAtlas
   m_IsVariant: 0

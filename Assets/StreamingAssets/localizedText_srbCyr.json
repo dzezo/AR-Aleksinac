@@ -1,10 +1,166 @@
 {
 	"items": 
 	[
-		{ "key": "txt_title", "value": "Историјски водич кроз Алексинац" },
-		{ "key": "btn_aboutCity", "value": "О граду" },
-		{ "key": "btn_augmentedReality", "value": "Повратак у прошлост" },
-		{ "key": "btn_memorableCitizens", "value": "Знаменити Алексинчани" },
-		{ "key": "btn_stories", "value": "Приче" }
+		{ "key": "txt_title", "value": "АЛЕКСИНАЦ" },
+		{ "key": "txt_subtitle", "value": "кроз време"},
+		{ "key": "btn_aboutCity", "value": "о граду" },
+		{ "key": "btn_augmentedReality", "value": "повратак у прошлост" },
+		{ "key": "btn_memorableCitizens", "value": "знаменити алексинчани" },
+		{ "key": "btn_inWar", "value": "у рату" },
+		{ "key": "btn_credits", "value": "захвалнице" },
+		
+		{ "key": "txt_aboutCityTitle", "value": "О ГРАДУ" },
+		{ "key": "txt_aboutCity1", "value": ""},
+		{ "key": "txt_aboutCity2", "value": ""},
+		{ "key": "txt_aboutCity3", "value": ""},
+		{ "key": "txt_aboutCity4", "value": ""},
+		
+		{ "key": "txt_znameniteHeading", "value": "ЗНАМЕНИТЕ"},
+		{ "key": "txt_znameniteSubHead", "value": "личности"},	
+		{ "key": "btn_borislav", "value": "Борислав\nСтевановић"},
+		{ "key": "btn_budimir", "value": "Будимир\nХристодуло"},
+		{ "key": "btn_knez", "value": "Добросав\nКнез-Милојковић"},
+		{ "key": "btn_kostaTaus", "value": "Коста\nТаушановић"},
+		{ "key": "btn_kosta", "value": "Коста\nСтојановић"},
+		{ "key": "btn_mihailo", "value": "Михаило\nРашић"},
+		{ "key": "btn_milan", "value": "Милан\nПецић"},
+		{ "key": "btn_milos", "value": "Милош\nТривунац"},
+		{ "key": "btn_prota", "value": "Прота-Стеван\nДимитријевић"},
+		{ "key": "btn_rista", "value": "Риста\nПрендић"},
+		{ "key": "btn_tihomir", "value": "Тихомир\nЂорђевић"},
+		
+		{ "key": "txt_uRatuHead", "value": "АЛЕКСИНАЦ"},
+		{ "key": "txt_uRatuSubHead", "value": "у рату"},
+		{ "key": "txt_chooseBattle", "value": "изаберите битку"},
+		{ "key": "txt_battleNATO", "value": "НАТО агресија 1999."},
+		{ "key": "txt_battleAdrovac", "value": "Горњи Адровац 1876."},
+		{ "key": "txt_battleSumatovac", "value": "Шуматовац 1876."},
+		{ "key": "txt_battleDeligrad", "value": "Делиград 1806 - 1813."},
+		
+		{ "key": "txt_adrovacHead", "value": "Горњи Адровац" },
+		{ "key": "txt_adrovacYear", "value": "1876."},
+		{ "key": "txt_adrovacBody", "value": ""},
+		
+		{ "key": "txt_natoHead", "value": "НАТО агерсија" },
+		{ "key": "txt_natoYear", "value": "1999."},
+		{ "key": "txt_natoBody", "value": ""},
+		
+		{ "key": "txt_sumatovacHead", "value": "Шуматовац" },
+		{ "key": "txt_sumatovacYear", "value": "1876."},
+		{ "key": "txt_sumatovacBody", "value": ""},
+		
+		
+		{ "key": "txt_borislavFirst", "value": "Борислав" },
+		{ "key": "txt_borislavLast", "value": "Стевановић"},
+		{ "key": "txt_borislavYear", "value": "1891-1971."},
+		{ "key": "txt_borislav", "value": ""},
+		
+		{ "key": "txt_budimirFirst", "value": "Будимир" },
+		{ "key": "txt_budimirLast", "value": "Христодуло"},
+		{ "key": "txt_budimirYear", "value": "1892-1965."},
+		{ "key": "txt_budimir", "value": " "},
+		
+		{ "key": "txt_knezFirst", "value": "Добросав" },
+		{ "key": "txt_knezLast", "value": "Кнез-Милојковић"},
+		{ "key": "txt_knezYear", "value": "1865-1941."},
+		{ "key": "txt_knez", "value": " "},
+		
+		{ "key": "txt_kostaFirst", "value": "Коста" },
+		{ "key": "txt_kostaLast", "value": "Стојановић"},
+		{ "key": "txt_kostaYear", "value": "1867-1921."},
+		{ "key": "txt_kosta", "value": " "},
+		
+		{ "key": "txt_kostaTausFirst", "value": "Коста" },
+		{ "key": "txt_kostaTausLast", "value": "Таушановић"},
+		{ "key": "txt_kostaTausYear", "value": "1852-1902."},
+		{ "key": "txt_kostaTaus", "value": " "},
+		
+		{ "key": "txt_mihailoFirst", "value": "Михаило" },
+		{ "key": "txt_mihailoLast", "value": "Рашић"},
+		{ "key": "txt_mihailoYear", "value": "1858-1932."},
+		{ "key": "txt_mihailo", "value": " "},
+		
+		{ "key": "txt_milanFirst", "value": "Милан" },
+		{ "key": "txt_milanLast", "value": "Пецић"},
+		{ "key": "txt_milanYear", "value": "1865-1959."},
+		{ "key": "txt_milan", "value": " "},
+		
+		{ "key": "txt_milosFirst", "value": "Милош" },
+		{ "key": "txt_milosLast", "value": "Тривунац"},
+		{ "key": "txt_milosYear", "value": "1876-1944."},
+		{ "key": "txt_milos", "value": " "},
+		
+		{ "key": "txt_protaFirst", "value": "Прота Стеван" },
+		{ "key": "txt_protaLast", "value": "Димитријевић"},
+		{ "key": "txt_protaYear", "value": "1866-1953."},
+		{ "key": "txt_prota", "value": " "},
+		
+		{ "key": "txt_ristaFirst", "value": "Риста" },
+		{ "key": "txt_ristaLast", "value": "Прендић"},
+		{ "key": "txt_ristaYear", "value": "1800-1892."},
+		{ "key": "txt_rista", "value": " "},
+		
+		{ "key": "txt_tihomirFirst", "value": "Тихомир" },
+		{ "key": "txt_tihomirLast", "value": "Ђорђевић"},
+		{ "key": "txt_tihomirYear", "value": "1968-1944."},
+		{ "key": "txt_tihomir", "value": " "},
+		
+		
+		{ "key": "btn_galerija", "value": "галерија"},
+		
+		{ "key": "gal_adrMapa", "value": "Војна карта битке код Адровца" },
+		{ "key": "gal_adrRajevski", "value": "Пуковник Николај Николајевич Рајевски"},
+		{ "key": "gal_adrKapa", "value": "Црква Свете Тројице и капа Рајевског са рупом од метка"},
+		{ "key": "gal_adrPrenos", "value": "Пренос тела пуковника Рајевског"},
+		{ "key": "gal_adrSpomen", "value": "Споменик на месту погибије Рајевског, постављен 1887."},
+		
+		{ "key": "gal_natoTrivunca", "value": "Улица Душана Тривунца након 5. априла" },
+		{ "key": "gal_natoHitna", "value": "У току бомбардовања су оштећене зграде хитне помоћи и дома здравља"},
+		{ "key": "gal_natoTrivunca7", "value": "У потрази за погинулима"},
+		{ "key": "gal_natoVuka", "value": "Улица Вука Караџића након 5, априла"},
+		{ "key": "gal_natoGradjani", "value": "Шта сада?"},
+		
+		{ "key": "gal_sumatovacMapa", "value": "Војна карта битке на Шуматовцу" },
+		{ "key": "gal_sumatovacPogibija", "value": "Погибија капетана Живана Протића. Цртеж Фердинандуса, гравира Бојарског"},
+		{ "key": "gal_sumatovacCrkva", "value": "Црква Св. Тројице подигнута је на старим темељима 1885. а освећена је 1888. године"},
+		{ "key": "gal_sumatovacSpomen", "value": "Спомен обележје на Шуматовцу подигнуто 2006. године"},
+		
+		{ "key": "gal_borislav", "value": "Борислав Стевановић" },
+		
+		{ "key": "gal_budimir", "value": "Будимир Христодуло"},
+		{ "key": "gal_budimirZejtinlik", "value": "Зејтинлик"},
+		{ "key": "gal_budimirMauzolej", "value": "Маузолеј на оству Видо"},
+		
+		{ "key": "gal_kenz", "value": "Добросав Кнез-Милојковић"},
+		{ "key": "gal_kenzSin", "value": "Син Добросава, Миша Кнез-Милојковић" },
+		
+		{ "key": "gal_kosta", "value": "Костадин Коста Стојановић"},
+		
+		{ "key": "gal_kostaTaus", "value": "Коста Таушановић"},
+		{ "key": "gal_kostaTausBista", "value": "Биста Косте Таушановића на улазу у Калемегдаснки парк"},
+		
+		{ "key": "gal_mihailo", "value": "Михаило Рашић"},
+		
+		{ "key": "gal_milan", "value": "Милан Пецић" },
+		
+		{ "key": "gal_milos", "value": "Милош Тривунац"},
+		
+		{ "key": "gal_prota", "value": "Прота Стеван Димитријевић - дигитална обрада"},
+		{ "key": "gal_protaOkrugli", "value": "Прота Стеван Димитријевић"},
+		
+		{ "key": "gal_rista", "value": "Риста Прендић"},
+		{ "key": "gal_ristaKuca", "value": "Кућа Ристе Прендића"},
+		{ "key": "gal_ristaKucaCrkva", "value": "Кућа Ристе Прендића са погледом на Цркву, данашња ОШ Љупче Николић"},
+		{ "key": "gal_ristaPasos", "value": "Пасош Ристе Прендића"},
+		{ "key": "gal_ristaZena", "value": "Риста са супругом"},
+		{ "key": "gal_ristaKonj", "value": "Риста на коњу"},
+		{ "key": "gal_ristaJase", "value": "Татар Риста Прендић и суруџија 1861."},
+		
+		{ "key": "gal_tihomir", "value": "Тихомир Ђорђевић"}
+
+
 	]
 }
+
+
+
