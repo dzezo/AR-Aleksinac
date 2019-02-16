@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 // Objekat na koji je nakacena skripta mora imati Text komponentu
 public class LocalizedText : MonoBehaviour
@@ -13,7 +14,16 @@ public class LocalizedText : MonoBehaviour
     // Funkcija popunjava tekst polje objekta tekstom iz recnika koji je mapiran na zadati kljuc
     void Start()
     {
-        Text text = GetComponent<Text>();
-        text.text = LocalizationManager.instance.GetLocalizedValue(key);
+        TextMeshProUGUI tmp_text;
+        Text unity_text = GetComponent<Text>();
+        if (unity_text == null)
+        {
+            tmp_text = GetComponent<TextMeshProUGUI>();
+            tmp_text.text = LocalizationManager.instance.GetLocalizedValue(key);
+        }
+        else
+        {
+            unity_text.text = LocalizationManager.instance.GetLocalizedValue(key);
+        }
     }
 }
