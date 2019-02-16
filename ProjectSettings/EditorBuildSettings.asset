@@ -5,10 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/LanguageScreen.unity
     guid: ab8dd87e874a16445a9bef49f27c9036
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/MenuScreen.unity
     guid: 1407c15c596413f41a6a1d348f54bd9a
+  - enabled: 1
+    path: Assets/Scenes/AugmentedReality.unity
+    guid: b1769b2c3bd26404e8a421b95eb04c25
   m_configObjects: {}

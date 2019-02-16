@@ -64,4 +64,10 @@ public class LocalizationManager : MonoBehaviour
     {
         return isReady;
     }
+
+    // Funkcija kojom se resetuje spremnost aplikacije, koristi se kada se ponovo vraca na odabir jezika
+    public void ResetIsReady()
+    {
+        isReady = false;
+    }
 }
