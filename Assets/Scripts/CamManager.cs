@@ -1,18 +1,19 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CamManager : MonoBehaviour
 {
-    // Start is called before the first frame update
     void Start()
     {
-        
+        // Onemogucavanje zatamljenja ekrana
+        Screen.sleepTimeout = SleepTimeout.NeverSleep;
     }
 
-    // Update is called once per frame
-    void Update()
+    // Iskljucuje AR kameru, vraca se na MenuScreen scenu
+    public void QuitCam()
     {
-        
+        SceneManager.LoadScene("MenuScreen");
     }
 }

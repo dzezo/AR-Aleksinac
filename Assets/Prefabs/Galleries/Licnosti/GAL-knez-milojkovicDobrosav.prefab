@@ -168,7 +168,6 @@ GameObject:
   - component: {fileID: 2978837813002306668}
   - component: {fileID: 5199457202305163711}
   - component: {fileID: 1035618804444599827}
-  - component: {fileID: 6374217411668862302}
   m_Layer: 5
   m_Name: btn_exit
   m_TagString: Untagged
@@ -271,23 +270,20 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5199457202305163711}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6126395206699948498}
+        m_MethodName: SwitchBack
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &6374217411668862302
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 595064667282353454}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d00b4745605aec54186e8a67fd7e3ea8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  creatorTag: Citizen
-  prefabTag: Gallery
 --- !u!1 &970172709640060904
 GameObject:
   m_ObjectHideFlags: 0
@@ -542,6 +538,7 @@ GameObject:
   - component: {fileID: 5764810875478383812}
   - component: {fileID: 2047794164593856678}
   - component: {fileID: 4336669895254121910}
+  - component: {fileID: 6126395206699948498}
   m_Layer: 5
   m_Name: GAL-knez-milojkovicDobrosav
   m_TagString: Gallery
@@ -607,6 +604,18 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
+--- !u!114 &6126395206699948498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2788461718976858306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2944c0ae2175c494dbe3f8568569405b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2795193053710610337
 GameObject:
   m_ObjectHideFlags: 0

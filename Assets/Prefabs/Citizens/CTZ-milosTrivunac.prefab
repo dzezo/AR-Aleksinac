@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6504445232041402932}
   - component: {fileID: 7281057298449589182}
   - component: {fileID: 4473475803707548030}
+  - component: {fileID: 2036384694707742931}
   m_Layer: 5
   m_Name: CTZ-milosTrivunac
   m_TagString: Citizen
@@ -77,6 +78,18 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
+--- !u!114 &2036384694707742931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 253146915876624265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2944c0ae2175c494dbe3f8568569405b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &459910686121798324
 GameObject:
   m_ObjectHideFlags: 0
@@ -325,6 +338,7 @@ GameObject:
   - component: {fileID: 8110722087399015191}
   - component: {fileID: 8333689022978364880}
   - component: {fileID: 3721021401706994136}
+  - component: {fileID: 7481782371955472995}
   m_Layer: 5
   m_Name: TextMeshPro Text
   m_TagString: Untagged
@@ -519,7 +533,7 @@ MonoBehaviour:
     spaceCount: 207
     wordCount: 206
     linkCount: 0
-    lineCount: 28
+    lineCount: 44
     pageCount: 1
     materialCount: 1
   m_havePropertiesChanged: 0
@@ -540,6 +554,19 @@ MonoBehaviour:
   - {fileID: 0}
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &7481782371955472995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1981157855123458263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5b11074ecf513245bdb7835ccba370e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: txt_milos
 --- !u!1 &3146816021851706895
 GameObject:
   m_ObjectHideFlags: 0
@@ -654,7 +681,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1345330914278245569}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2036384694707742931}
+        m_MethodName: ChangeLang
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!1 &3642294958528563507
@@ -1041,7 +1079,6 @@ GameObject:
   - component: {fileID: 531792847998252239}
   - component: {fileID: 4563911875809652459}
   - component: {fileID: 1353433533481607994}
-  - component: {fileID: 3725482138545964975}
   m_Layer: 5
   m_Name: btn_galery
   m_TagString: Untagged
@@ -1145,22 +1182,21 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 3703207573720966235}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2036384694707742931}
+        m_MethodName: SwitchPanel
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8529816594587285710, guid: b552fa99f32b4c54fb7a2c7592b98ff6,
+            type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &3725482138545964975
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6128561572216507560}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 517eaaed8907ade4abf47616575b6c8b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  prefab: {fileID: 8529816594587285710, guid: b552fa99f32b4c54fb7a2c7592b98ff6, type: 3}
 --- !u!1 &6980083469069563445
 GameObject:
   m_ObjectHideFlags: 0
@@ -1266,7 +1302,6 @@ GameObject:
   - component: {fileID: 6285479091389909332}
   - component: {fileID: 2150173228265773399}
   - component: {fileID: 3990413306960121363}
-  - component: {fileID: 2214755081245710882}
   m_Layer: 5
   m_Name: btn_back
   m_TagString: Untagged
@@ -1369,23 +1404,20 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2150173228265773399}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2036384694707742931}
+        m_MethodName: SwitchBack
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &2214755081245710882
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7898081404687806999}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d00b4745605aec54186e8a67fd7e3ea8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  creatorTag: CitizenList
-  prefabTag: Citizen
 --- !u!1 &7918790428745810757
 GameObject:
   m_ObjectHideFlags: 0

@@ -141,7 +141,6 @@ GameObject:
   - component: {fileID: 8845509178985388548}
   - component: {fileID: 8845509178985388549}
   - component: {fileID: 8845509178985388546}
-  - component: {fileID: 3232170843019409020}
   m_Layer: 5
   m_Name: btn_back
   m_TagString: Untagged
@@ -244,23 +243,20 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8845509178985388549}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5169426770332101934}
+        m_MethodName: SwitchBack
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &3232170843019409020
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8845509178985388545}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d00b4745605aec54186e8a67fd7e3ea8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  creatorTag: Battlefield
-  prefabTag: Battle
 --- !u!1 &8845509178994497232
 GameObject:
   m_ObjectHideFlags: 0
@@ -593,6 +589,7 @@ GameObject:
   - component: {fileID: 8845509179861452090}
   - component: {fileID: 8845509179861452092}
   - component: {fileID: 8845509179861452093}
+  - component: {fileID: 5169426770332101934}
   m_Layer: 5
   m_Name: BTL-gornjiAdrovac
   m_TagString: Battle
@@ -659,6 +656,18 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
+--- !u!114 &5169426770332101934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8845509179861452091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2944c0ae2175c494dbe3f8568569405b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8845509179999990598
 GameObject:
   m_ObjectHideFlags: 0
@@ -1024,7 +1033,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8845509180291179631}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5169426770332101934}
+        m_MethodName: ChangeLang
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!1 &8845509180568922695
@@ -1039,7 +1059,6 @@ GameObject:
   - component: {fileID: 8845509180568922714}
   - component: {fileID: 8845509180568922715}
   - component: {fileID: 8845509180568922712}
-  - component: {fileID: 8845509180568922713}
   m_Layer: 5
   m_Name: btn_galery
   m_TagString: Untagged
@@ -1143,22 +1162,21 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8845509178984694895}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5169426770332101934}
+        m_MethodName: SwitchPanel
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 7386481561564726586, guid: 53bac0d747496214d8979764c56a0902,
+            type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &8845509180568922713
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8845509180568922695}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 517eaaed8907ade4abf47616575b6c8b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  prefab: {fileID: 7386481561564726586, guid: 53bac0d747496214d8979764c56a0902, type: 3}
 --- !u!1 &8845509180604384936
 GameObject:
   m_ObjectHideFlags: 0
@@ -1170,6 +1188,7 @@ GameObject:
   - component: {fileID: 8845509180604384939}
   - component: {fileID: 8845509180604384941}
   - component: {fileID: 8845509180604384938}
+  - component: {fileID: 2737720889553860744}
   m_Layer: 5
   m_Name: TextMeshPro Text
   m_TagString: Untagged
@@ -1369,7 +1388,7 @@ MonoBehaviour:
     spaceCount: 232
     wordCount: 231
     linkCount: 0
-    lineCount: 31
+    lineCount: 48
     pageCount: 1
     materialCount: 1
   m_havePropertiesChanged: 0
@@ -1390,3 +1409,16 @@ MonoBehaviour:
   - {fileID: 0}
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &2737720889553860744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8845509180604384936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5b11074ecf513245bdb7835ccba370e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: txt_adrovacBody

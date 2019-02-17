@@ -89,14 +89,18 @@ public class SnapScrolling : MonoBehaviour
             captionTexts[i].SetActive(false);
         }
         // aktiviranje indikatora selektovane slike
-        if(pageIndicators[selectedImageID].sprite != pageActive)
+        if (pageIndicators[selectedImageID].sprite != pageActive)
+        {
             pageIndicators[selectedImageID].sprite = pageActive;
+        }
         // Ukoliko se ne scrolla radi se snap(interpolacija) na najblizu sliku
         if (!isScrolling)
         {
             // caption tekst se tek kada se izabere slika (prestane interakcija)
-            if(!captionTexts[selectedImageID].activeSelf)
+            if (!captionTexts[selectedImageID].activeSelf)
+            {
                 captionTexts[selectedImageID].SetActive(true);
+            }
             // interpolacija (snap)
             contentVector.x = Mathf.SmoothStep(contentRect.anchoredPosition.x, imagePos[selectedImageID].x, imageSnapSpeed * Time.fixedDeltaTime);
             contentRect.anchoredPosition = contentVector;

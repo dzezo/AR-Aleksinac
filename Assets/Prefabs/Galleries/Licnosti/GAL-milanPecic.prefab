@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 1492313834560957061}
   - component: {fileID: 4802544252281576807}
   - component: {fileID: 6180358126959214279}
-  - component: {fileID: 4956900721865433706}
   m_Layer: 5
   m_Name: btn_exit
   m_TagString: Untagged
@@ -115,23 +114,20 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 4802544252281576807}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8848554953023566592}
+        m_MethodName: SwitchBack
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &4956900721865433706
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1219780076421200005}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d00b4745605aec54186e8a67fd7e3ea8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  creatorTag: Citizen
-  prefabTag: Gallery
 --- !u!1 &3393892598949833341
 GameObject:
   m_ObjectHideFlags: 0
@@ -919,6 +915,7 @@ GameObject:
   - component: {fileID: 6319010454894354826}
   - component: {fileID: 7973121698965254305}
   - component: {fileID: 4879452855889615880}
+  - component: {fileID: 8848554953023566592}
   m_Layer: 5
   m_Name: GAL-milanPecic
   m_TagString: Gallery
@@ -984,3 +981,15 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
+--- !u!114 &8848554953023566592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9087396358478359511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2944c0ae2175c494dbe3f8568569405b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

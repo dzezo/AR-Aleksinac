@@ -693,7 +693,6 @@ GameObject:
   - component: {fileID: 5127742705020627966}
   - component: {fileID: 4984857955428694296}
   - component: {fileID: 4974394147161673563}
-  - component: {fileID: 4139786638659295116}
   m_Layer: 5
   m_Name: btn_exit
   m_TagString: Untagged
@@ -796,23 +795,20 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 4984857955428694296}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2796786799213115381}
+        m_MethodName: SwitchBack
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &4139786638659295116
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7572911505222136312}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d00b4745605aec54186e8a67fd7e3ea8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  creatorTag: Citizen
-  prefabTag: Gallery
 --- !u!1 &7684869952354971753
 GameObject:
   m_ObjectHideFlags: 0
@@ -824,6 +820,7 @@ GameObject:
   - component: {fileID: 3686752800083132132}
   - component: {fileID: 3816833383203012851}
   - component: {fileID: 2931580195286273480}
+  - component: {fileID: 2796786799213115381}
   m_Layer: 5
   m_Name: GAL-mihailoRasic
   m_TagString: Gallery
@@ -889,6 +886,18 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
+--- !u!114 &2796786799213115381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7684869952354971753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2944c0ae2175c494dbe3f8568569405b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8258282231243642155
 GameObject:
   m_ObjectHideFlags: 0

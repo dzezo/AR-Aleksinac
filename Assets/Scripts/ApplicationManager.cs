@@ -1,32 +1,56 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class ApplicationManager : MonoBehaviour
 {
-    // Iskljucuje aplikaciju, izlaz koji se nalazi na MainMenu panelu
-    public void QuitApp()
+    // Singleton
+    public static ApplicationManager instance;
+
+    // Paneli koje je korisnik obisao (Istorija panela)
+    private Stack<GameObject> panels = new Stack<GameObject>();
+
+    // Funkcija koja osigurava da u sistemu postoji samo jedna instanca
+    private void Awake()
     {
-        Application.Quit();
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else if (instance != this)
+        {
+            Destroy(gameObject);
+        }
+        DontDestroyOnLoad(gameObject);
     }
 
-    // Funkcija koja ukljucuje AR kameru
-    public void StartCam()
+    // Vraca poslednji panel koji je korisnik obisao i uklanja ga
+    public GameObject RemoveLastPanel()
     {
-        SceneManager.LoadScene("AugmentedReality");
+        return panels.Pop();
     }
 
-    // Iskljucuje AR kameru, vraca se na menuScreen scenu
-    public void QuitCam()
+    // Vraca poslednji panel koji je korisnik obisao bez uklanjanja
+    public GameObject GetLastPanel()
     {
-        SceneManager.LoadScene("MenuScreen");
+        if (panels.Count > 0)
+        {
+            return panels.Peek();
+        }
+        else
+        {
+            return null;
+        }
     }
 
-    // Funkcija koja postavlja scenu za menjanje jezika
-    public void ChangeLang()
+    // Dodaje poslednji panel koji je korisnik obisao
+    public void SetLastPanel(GameObject panel)
     {
-        LocalizationManager.instance.ResetIsReady();
-        SceneManager.LoadScene("LanguageScreen");
+        panels.Push(panel);
+    }
+
+    public int ReturnCount()
+    {
+        return panels.Count;
     }
 }

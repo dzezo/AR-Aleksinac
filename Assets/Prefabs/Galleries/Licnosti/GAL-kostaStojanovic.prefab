@@ -160,6 +160,7 @@ GameObject:
   - component: {fileID: 2310706551290160040}
   - component: {fileID: 1410313481362655363}
   - component: {fileID: 3787913917938247354}
+  - component: {fileID: 8489925627549089555}
   m_Layer: 5
   m_Name: GAL-kostaStojanovic
   m_TagString: Gallery
@@ -225,6 +226,18 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
+--- !u!114 &8489925627549089555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 902917607322291559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2944c0ae2175c494dbe3f8568569405b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1721608236327989763
 GameObject:
   m_ObjectHideFlags: 0
@@ -601,7 +614,6 @@ GameObject:
   - component: {fileID: 6610649055891876807}
   - component: {fileID: 4960520251608917373}
   - component: {fileID: 4340983580916513538}
-  - component: {fileID: 4794656012408939292}
   m_Layer: 5
   m_Name: btn_exit
   m_TagString: Untagged
@@ -704,23 +716,20 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 4960520251608917373}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8489925627549089555}
+        m_MethodName: SwitchBack
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &4794656012408939292
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6406396351431553857}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d00b4745605aec54186e8a67fd7e3ea8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  creatorTag: Citizen
-  prefabTag: Gallery
 --- !u!1 &7496521122130315811
 GameObject:
   m_ObjectHideFlags: 0

@@ -125,6 +125,7 @@ GameObject:
   - component: {fileID: 672562457816665529}
   - component: {fileID: 7526725605994417984}
   - component: {fileID: 5839700159110383367}
+  - component: {fileID: 6532568885017226505}
   m_Layer: 5
   m_Name: BTL-NATO
   m_TagString: Battle
@@ -191,6 +192,18 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
+--- !u!114 &6532568885017226505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 910540797451786755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2944c0ae2175c494dbe3f8568569405b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1111465412600989744
 GameObject:
   m_ObjectHideFlags: 0
@@ -789,6 +802,7 @@ GameObject:
   - component: {fileID: 8403722955406559941}
   - component: {fileID: 2463620652725651692}
   - component: {fileID: 4611624487027324625}
+  - component: {fileID: 8461645619250111888}
   m_Layer: 5
   m_Name: TextMeshPro Text
   m_TagString: Untagged
@@ -988,7 +1002,7 @@ MonoBehaviour:
     spaceCount: 232
     wordCount: 231
     linkCount: 0
-    lineCount: 31
+    lineCount: 48
     pageCount: 1
     materialCount: 1
   m_havePropertiesChanged: 0
@@ -1009,6 +1023,19 @@ MonoBehaviour:
   - {fileID: 0}
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &8461645619250111888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5504716081618510815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5b11074ecf513245bdb7835ccba370e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: txt_natoBody
 --- !u!1 &6763342555116293378
 GameObject:
   m_ObjectHideFlags: 0
@@ -1123,7 +1150,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 73054797462789861}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6532568885017226505}
+        m_MethodName: ChangeLang
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!1 &7339230559992145170
@@ -1138,7 +1176,6 @@ GameObject:
   - component: {fileID: 3163197687970570898}
   - component: {fileID: 6741793127649147676}
   - component: {fileID: 5669834452194140433}
-  - component: {fileID: 5380635900903961354}
   m_Layer: 5
   m_Name: btn_galery
   m_TagString: Untagged
@@ -1242,22 +1279,21 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6517108091542678500}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6532568885017226505}
+        m_MethodName: SwitchPanel
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 7050904580935503892, guid: e03d9d7f9c085074f9b2307361ec6232,
+            type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &5380635900903961354
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7339230559992145170}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 517eaaed8907ade4abf47616575b6c8b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  prefab: {fileID: 7050904580935503892, guid: e03d9d7f9c085074f9b2307361ec6232, type: 3}
 --- !u!1 &8404511522666071771
 GameObject:
   m_ObjectHideFlags: 0
@@ -1270,7 +1306,6 @@ GameObject:
   - component: {fileID: 900979255153750542}
   - component: {fileID: 2131850069574256710}
   - component: {fileID: 6091257332093262296}
-  - component: {fileID: 8727331423824973165}
   m_Layer: 5
   m_Name: btn_back
   m_TagString: Untagged
@@ -1373,20 +1408,17 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2131850069574256710}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6532568885017226505}
+        m_MethodName: SwitchBack
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &8727331423824973165
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8404511522666071771}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d00b4745605aec54186e8a67fd7e3ea8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  creatorTag: Battlefield
-  prefabTag: Battle

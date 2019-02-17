@@ -114,7 +114,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5479205813759774094}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2395415549554359583}
+        m_MethodName: ChangeLang
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!1 &786170710656390276
@@ -467,6 +478,7 @@ GameObject:
   - component: {fileID: 4051472161741856565}
   - component: {fileID: 7311828946179923266}
   - component: {fileID: 2807709982884783814}
+  - component: {fileID: 6430413455683597132}
   m_Layer: 5
   m_Name: TextMeshPro Text
   m_TagString: Untagged
@@ -661,7 +673,7 @@ MonoBehaviour:
     spaceCount: 207
     wordCount: 206
     linkCount: 0
-    lineCount: 28
+    lineCount: 44
     pageCount: 1
     materialCount: 1
   m_havePropertiesChanged: 0
@@ -682,6 +694,19 @@ MonoBehaviour:
   - {fileID: 0}
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &6430413455683597132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2503334416096095137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5b11074ecf513245bdb7835ccba370e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: txt_budimir
 --- !u!1 &2625079614552974862
 GameObject:
   m_ObjectHideFlags: 0
@@ -694,7 +719,6 @@ GameObject:
   - component: {fileID: 2831044641348684331}
   - component: {fileID: 5715540172391950675}
   - component: {fileID: 4820242628056688260}
-  - component: {fileID: 7709084701047433357}
   m_Layer: 5
   m_Name: btn_back
   m_TagString: Untagged
@@ -797,23 +821,20 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5715540172391950675}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2395415549554359583}
+        m_MethodName: SwitchBack
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &7709084701047433357
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2625079614552974862}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d00b4745605aec54186e8a67fd7e3ea8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  creatorTag: CitizenList
-  prefabTag: Citizen
 --- !u!1 &3546645369840107091
 GameObject:
   m_ObjectHideFlags: 0
@@ -1076,6 +1097,7 @@ GameObject:
   - component: {fileID: 1693796177787509385}
   - component: {fileID: 8324819759947214659}
   - component: {fileID: 1856003247835049149}
+  - component: {fileID: 2395415549554359583}
   m_Layer: 5
   m_Name: CTZ-budimirHristodulo
   m_TagString: Citizen
@@ -1142,6 +1164,18 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
+--- !u!114 &2395415549554359583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5746274326784350894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2944c0ae2175c494dbe3f8568569405b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5751757190973482910
 GameObject:
   m_ObjectHideFlags: 0
@@ -1154,7 +1188,6 @@ GameObject:
   - component: {fileID: 7670622419623605684}
   - component: {fileID: 3301903745363299215}
   - component: {fileID: 2800992675320114373}
-  - component: {fileID: 5672363897648564098}
   m_Layer: 5
   m_Name: btn_galery
   m_TagString: Untagged
@@ -1258,22 +1291,21 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2503474394656663653}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2395415549554359583}
+        m_MethodName: SwitchPanel
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 7704742933506251590, guid: 63c0f9d62070d984b849373b216be87c,
+            type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &5672363897648564098
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5751757190973482910}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 517eaaed8907ade4abf47616575b6c8b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  prefab: {fileID: 7704742933506251590, guid: 63c0f9d62070d984b849373b216be87c, type: 3}
 --- !u!1 &7113707145549874001
 GameObject:
   m_ObjectHideFlags: 0
