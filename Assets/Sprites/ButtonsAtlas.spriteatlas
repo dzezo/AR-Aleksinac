@@ -47,50 +47,50 @@ SpriteAtlas:
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 21300000, guid: 41e5dd50868a1e74b9d47f08df45daf6, type: 3}
-  - {fileID: 21300000, guid: e5de76f075e91194ca76d3d5a9d35805, type: 3}
-  - {fileID: 21300000, guid: 2a9ae6212d84bc342a2b6f58072fbbb6, type: 3}
-  - {fileID: 21300000, guid: 058b3731dc0d17d459ee9c8e12003815, type: 3}
-  - {fileID: 21300000, guid: 2c3ad3424e169be428f088995b03f750, type: 3}
+  - {fileID: 21300000, guid: ade2b8512f1338d49b0b44c894ef3063, type: 3}
+  - {fileID: 21300000, guid: 53d397d193c46814db7179c0ecf3f38e, type: 3}
   - {fileID: 21300000, guid: 00ef76428254742408f725c5471a57c3, type: 3}
+  - {fileID: 21300000, guid: 67e567b2ed5811b41aac44cebb3a7c4b, type: 3}
   - {fileID: 21300000, guid: 9dbadf133ff2a95428d49ba541443a56, type: 3}
-  - {fileID: 21300000, guid: 0c2d9933680bd71458ba55db927bb982, type: 3}
   - {fileID: 21300000, guid: 308153c41ca5bda46bc655fcad740393, type: 3}
-  - {fileID: 21300000, guid: 46c67be4ee3c7c24088aecdee4e14f96, type: 3}
-  - {fileID: 21300000, guid: 1a1edd468e6e3574c91163f731edb7a8, type: 3}
+  - {fileID: 21300000, guid: 512cce556140271469e4a8885e927538, type: 3}
+  - {fileID: 21300000, guid: df896e65c546c264da32a8084d90ae69, type: 3}
   - {fileID: 21300000, guid: 6fe37066bdd418845b0daace38d68cbc, type: 3}
   - {fileID: 21300000, guid: 782cdc86f7dccb646a1731b35fbcaa28, type: 3}
+  - {fileID: 21300000, guid: 335daf08abf136a418c902bfb06039a8, type: 3}
   - {fileID: 21300000, guid: b00f4348fee67784bbcc5720aefe6cf3, type: 3}
-  - {fileID: 21300000, guid: 882350690de4942409e64a31222ab084, type: 3}
-  - {fileID: 21300000, guid: b209f579b352f9e4da3df627dc3159d7, type: 3}
   - {fileID: 21300000, guid: a92ab979ddccfd645bb9c9557b4f3f3b, type: 3}
   - {fileID: 21300000, guid: a32d4b89bb3a9ab4d8618aef0280118a, type: 3}
   - {fileID: 21300000, guid: ea63bc1aa9dd55c4f9f414d1163ff075, type: 3}
-  - {fileID: 21300000, guid: e44459eab1959f140b2f23b0019072bb, type: 3}
-  - {fileID: 21300000, guid: 64e6e5bb1dee20b4694387a641ce63d6, type: 3}
+  - {fileID: 21300000, guid: 3d36144a5558a8c4db71142ca65315b7, type: 3}
+  - {fileID: 21300000, guid: d63397ca7c1bfe048ac18b38b3aaa1d4, type: 3}
+  - {fileID: 21300000, guid: 55b6b2fbeb3acb149a705f21601b5328, type: 3}
+  - {fileID: 21300000, guid: 97baeb1d917e91340ac352b5cbbd0a3f, type: 3}
+  - {fileID: 21300000, guid: bfc9d04e0123b0b4c91cc39f2360a55e, type: 3}
   - {fileID: 21300000, guid: 1460396ed633c8e4d929dfd4dda2b190, type: 3}
   - {fileID: 21300000, guid: ed08532ff7cf966458d8ad8ee685e32d, type: 3}
   m_PackedSpriteNamesToIndex:
   - 01.Menu_2
-  - 03.Mihailo
-  - 03.Borislav
-  - 03.Budimir
-  - 03.Prota
+  - knez_btn
+  - rista_btn
   - language
+  - budimir_btn
   - dugme_0000_bitka
-  - 03.Tihomir
   - 01.Menu_4
-  - 03.Rista
-  - 03.Knezmilojkovic
+  - prota_btn
+  - milos_btn
   - dugme_0002_prazan-radio
   - dugme_0000_izlaz
+  - kosta_btn
   - dugme_0005_nazad
-  - 03.KostaStojan
-  - 03.KostaTausan
   - 01.Menu_3
   - dugme_0000_nato
   - dugme_0004_side_dropdown
-  - 03.Milan
-  - 03.Milos
+  - tihomir_btn
+  - mihailo_btn
+  - borislav_btn
+  - milan_btn
+  - kostaTaus_btn
   - dugme_0001_aktiviran-radio
   - 01.Menu_1
   m_Tag: ButtonsAtlas
