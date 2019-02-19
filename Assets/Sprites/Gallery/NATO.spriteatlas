@@ -41,10 +41,10 @@ SpriteAtlas:
   - {fileID: 21300000, guid: b05f34adaffe0b247a6a66818941bb61, type: 3}
   - {fileID: 21300000, guid: adb836df8ab226244851604fed6af2e9, type: 3}
   m_PackedSpriteNamesToIndex:
-  - Dom zdravlja i hitna pomoc
-  - Ulica Vuka Karadzica
-  - Ulica Dusana Trivunca
-  - U Dusana Trivunca je poginulo sedam osoba
-  - Zabrinuti gradjani
+  - nato_Dom zdravlja i hitna pomoc
+  - nato_Ulica Vuka Karadzica
+  - nato_Ulica Dusana Trivunca
+  - nato_U Dusana Trivunca je poginulo sedam osoba
+  - nato_Zabrinuti gradjani
   m_Tag: NATO
   m_IsVariant: 0

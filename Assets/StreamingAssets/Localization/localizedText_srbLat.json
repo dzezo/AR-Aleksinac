@@ -1,10 +1,173 @@
 {
 	"items": 
 	[
-		{ "key": "txt_title", "value": "Istorijski vodič kroz Aleksinac" },
-		{ "key": "btn_aboutCity", "value": "O gradu" },
-		{ "key": "btn_augmentedReality", "value": "Povratak u prošlost" },
-		{ "key": "btn_memorableCitizens", "value": "Znameniti Aleksinčani" },
-		{ "key": "btn_stories", "value": "Priče" }
+		{ "key": "txt_title", "value": "ALEKSINAC" },
+		{ "key": "txt_subtitle", "value": "kroz vreme"},
+		{ "key": "btn_aboutCity", "value": "o gradu" },
+		{ "key": "btn_augmentedReality", "value": "povratak u prošlost" },
+		{ "key": "btn_memorableCitizens", "value": "znameniti aleksinčani" },
+		{ "key": "btn_inWar", "value": "u ratovima" },
+		{ "key": "btn_credits", "value": "zahvalnice" },
+		
+		{ "key": "txt_aboutCityTitle", "value": "O GRADU" },
+		{ "key": "txt_aboutCity1", "value": "Aleksinac kao toponim pominje se u turskom defteru (popis naseljenih mesta) iz 1516. godine kao deo Kruševačkog vilajeta.\n\nAleksinac je jedan od retkih gradova čiji mit o poreklu stoji zapisan u Srpskoj akademiji nauka i umetnosti u Beogradu. U obližnjem selu Kraljevu bio je turski ajanin Usein-aga koji je po ceo dan sedeo ispred svoje mehane. Neki ajdučki arambaša iz očigledne mržnje prema Turčinu svake večeri ga je naglas iz šume prozivao. Turčin unajmi buljubašu po imenu Aleksa da tog čoveka iz šume uhvati. Aleksa uhvati tog čoveka, preda ga Turčinu, a ovaj ga nabije na kolac ispred kafane. Turčin mu zauzvrat pokloni ogroman kompleks zemlje blizu utoka reke Moravice u Moravu, gde se sadašnji Aleksinac nalazi.\n\nAleksinac je oslobođen od turskog ropstva 1833. godine kada se nalazio u sastavu Ražanjske nahije. Hatišerifom iz 1833. godine tadašnjem Beogradskom pašaluku pripojeno je šest nahija, pa se tako Aleksinac našao u Srbiji za vreme vladavine Knjaza Miloša Obrenovića.\n\nSam Knjaz Miloš je veoma zaslužan za budući razvoj Aleksinca. Iako je bio nepismen, Knjaz Miloš je bio izuzetan državnik sa pogledom u budućnost i govorio je: „Ja sam nauman, ako bog da da u Srbiji napravim dve kapije – jednu u Beogradu prema Ćesarskoj (Austriji), a drugu u Aleksincu prema Turskoj.” I zaista na poziv Knjaza Miloša, u Aleksinac je stigao austrijski arhitekta Franc Janke i 1839. godine napravio urbanistički plan za grad, prvi urbanistički plan u ovom delu Srbije."},
+		{ "key": "txt_aboutCity2", "value": "Ovakav status Aleksinca kao graničnog grada doveo je do njegovog opšteg napretka jer su u njemu bile smeštene razne državne ustanove. Najznačajnija od njih bio je takozvani Karantin u kome su putnici iz Turske, Grčke, Makedonije i Stare Srbije, koji su se kretali prema Evropi, bili obavezni da u njemu provedu 40 dana, a sve u cilju otkrivanja zaraznih bolesti koje su u to vreme harale u Turskoj. Tako je Aleksinac bio predstraža za ulazak u Evropu. Zdrastveni karantin kao prva bolnica u Aleksincu osnovan je 1836. godine."},
+		{ "key": "txt_aboutCity3", "value": "Ovakvo vreme napretka i svojevrsnog državnog značaja trajalo je sve do 1876. godine, kada je započeo Prvi srpsko-turski rat. U tom ratu u kome je Srbija pretrpela nekoliko uzastopnih poraza, Aleksiinac i okolina pretrpeli su teške ljudske i materijalne gubitke. Sva sela na levoj i desnoj obali Morave od Niša do Aleksinca bila su spaljena do temelja. I pored delimičnih paljevina u Aleksincu, Turci, koji su zauzeli grad u oktobru 1876. godine, nisu pravili velike štete jer je stanovništvo izbeglo na sever, a Turci su štedeli kuće da bi u njima mogli da prezime.\n\nPosle oslobođenja od Turaka i stvaranja prve nezavisne srpske države, srpska granica je pomerena daleko na jug, čime je Aleksinac izgubio svoj privredni i administrativni značaj. Izgradnjom železničke pruge Beograd—Niš 1884. godine, Aleksinac je zaobiđen jer je pruga zbog tehničkih problema i političkih intriga (u Aleksinačkom kraju je izbila Timočka buna) izgrađena na levoj obali Južne Morave.\n\nZbog svog strateškog položaja u oba svetska rata, Aleksinac je bio okupiran i razaran. Na spomeniku u porti aleksinačke crkve ispisano je 350 imena vojnika i oficira izginulih u Balkanskim i Prvom svetskom ratu. U Aleksincu 17. novembra 1989. dogodila se velika nesreća u rudniku uglja, u jami \"Morava\", kada je život izgubilo 90 rudara."},
+		{ "key": "txt_aboutCity4", "value": "Šta više i u doba svetske civilizacije, krajem 20. veka, Aleksinac je šest puta bombardovan od strane NATO avijacije. U tim bombardovanjima bilo je mnogo ljudskih žrtava, a razoren i sam centar grada."},
+		
+		{ "key": "txt_znameniteHeading", "value": "ZNAMENITE"},
+		{ "key": "txt_znameniteSubHead", "value": "ličnosti"},	
+		{ "key": "btn_borislav", "value": "Borislav\nStevanović"},
+		{ "key": "btn_budimir", "value": "Budimir\nHristodulo"},
+		{ "key": "btn_knez", "value": "Dobrosav\nKnez-Milojković"},
+		{ "key": "btn_kostaTaus", "value": "Kosta\nTaušanović"},
+		{ "key": "btn_kosta", "value": "Kosta\nStojanović"},
+		{ "key": "btn_mihailo", "value": "Mihailo\nRašić"},
+		{ "key": "btn_milan", "value": "Milan\nPecić"},
+		{ "key": "btn_milos", "value": "Miloš\nTrivunac"},
+		{ "key": "btn_prota", "value": "Prota-Stevan\nDimitrijević"},
+		{ "key": "btn_rista", "value": "Rista\nPrendić"},
+		{ "key": "btn_tihomir", "value": "Tihomir\nĐorđević"},
+		{ "key": "txt_uRatuHead", "value": "ALEKSINAC"},
+		{ "key": "txt_uRatuSubHead", "value": "u ratu"},
+		{ "key": "txt_chooseBattle", "value": "izaberite bitku"},
+		{ "key": "txt_battleNATO", "value": "NATO agresija 1999."},
+		{ "key": "txt_battleAdrovac", "value": "Gornji Adrovac 1876."},
+		{ "key": "txt_battleSumatovac", "value": "Šumatovac 1876."},
+		{ "key": "txt_battleDeligrad", "value": "Deligrad 1806 - 1813."},
+		
+		{ "key": "txt_adrovacHead", "value": "Gornji Adrovac" },
+		{ "key": "txt_adrovacYear", "value": "1876."},
+		{ "key": "txt_adrovacBody", "value": ""},
+		
+		{ "key": "txt_natoHead", "value": "NATO agersija" },
+		{ "key": "txt_natoYear", "value": "1999."},
+		{ "key": "txt_natoBody", "value": ""},
+		
+		{ "key": "txt_sumatovacHead", "value": "Šumatovac" },
+		{ "key": "txt_sumatovacYear", "value": "1876."},
+		{ "key": "txt_sumatovacBody", "value": ""},
+		
+		{ "key": "txt_deligradHead", "value": "Deligrad" },
+		{ "key": "txt_deligradYear", "value": "1806-1813."},
+		{ "key": "txt_deligradBody", "value": ""},		
+		
+		{ "key": "txt_borislavFirst", "value": "Borislav" },
+		{ "key": "txt_borislavLast", "value": "Stevanović"},
+		{ "key": "txt_borislavYear", "value": "1891-1971."},
+		{ "key": "txt_borislav", "value": "Borislav Stevanović je rođen 30. januara 1891. godine u Aleksincu. U Aleksincu je završio osnovnu školu, a Gimnaziju u Aleksincu i Nišu. Na Filozofskom fakultetu od 1909. do 1913, godine studirao je filozofiju kod Brane Petronijevića. Bio je jedan od 1300 kaplara; prvi ʼčistiʼ psiholog po interesovanjima i aspiracijama. Poslediplomske studije psihologije završio je u Londonu na Kings koledžu. Doktorirao je 1926. godine.\n\nNa Beogradskom univerzitetu predavao je opštu, dečju i pedagošku psihologiju. Tridesetih godina prošlog veka sa saradnicima je uradio Beogradsku reviziju Bine‒Simonove skale za merenje inteligencije. Bio je šef Katedre za psihologiju i dekan Filozofskog fakulteta u Beogradu. Bio je član Srpske akademije nauka i umetnosti.\n\nPreminuo je 23. novembra 1971. godine u Beogradu. SANU je 1973. godine objavila Spomenicu posvećenu preminulom akademiku Borislavu Stevanoviću a Društvo psihologa Srbije čiji je bio predsednik, ustanovilo je nagradu koja nosi njegovo ime.\n\nObjavio je više naučnih radova: „Kvalitativna analiza pojma inteligencije\", \"Kvantitativna analiza pojma inteligencije\", \"Razviće dečije inteligencije i Beogradska revizija Bine‒Simonove skale\" (1934.)"},
+		
+		{ "key": "txt_budimirFirst", "value": "Budimir" },
+		{ "key": "txt_budimirLast", "value": "Hristodulo"},
+		{ "key": "txt_budimirYear", "value": "1892-1965."},
+		{ "key": "txt_budimir", "value": "Arhitekta Budimir Hristodulo je rođen 1892. godine u Aleksincu. U Aleksincu je završio osnovnu školu i gimnaziju. Po završenoj gimnaziji odlazi u Berlin na studije tehnike. Kada je počeo Prvi svetski rat vraća se u Srbiju i odmah po dolasku biva regrutovan. Pripadao je čuvenoj jedinici 1300 kaplara i sa njom je učestvovao u svim poznatim borbama. Posle završetka rata otišao je u Torino na postdiplomske studije. Odmah po završetku studija dobio je službu u Ministarstvu građevina.\n\nOd 1933. do 1936. neumorno je radio kao glavni neimar na izgradnji Srpskog vojničkog groblja u Solunu. Njegovom inicijativom dopremljene su iz Hilandara sadnice čempresa na Zejtinlik i tu planski zasađene. Za izvanredne zasluge na podizanju Srpskog vojničkog groblja na tlu Grčke, kao potvrdu prijateljstva između dve savezničke zemlje, grčka vlada ga je odlikovala. Od 1936. do 1938. bio je i neimar mauzoleja – kosturnice na ostrvu Vido.\n\nUmro je u Beogradu 1965. godine."},
+		
+		{ "key": "txt_knezFirst", "value": "Dobrosav" },
+		{ "key": "txt_knezLast", "value": "Knez-Milojković"},
+		{ "key": "txt_knezYear", "value": "1865-1941."},
+		{ "key": "txt_knez", "value": "Rođen je u Aleksincu, 2. septembra 1865 i u njemu je završio život 20. decembara 1941. Osnovnu školu i nižu gimnaziju završio je u Aleksinacu a višu u Nišu. Farmaciju je studirao u Beču gde je diplomirao 1891. Po završetku farmacije nastavio je studije hemije na Filozofskom fakultetu u Beču i doktorirao 1893. sa disertaciom \"O kristalnoj vodi u solima metil-etil sirćetne kiseline\". Za vreme studija u Beču bio je član i sekretar Srpskog akademskog društva \"Zora\".\n\nUčestvovao je kao dobrovoljac u srpsko-bugarskom ratu 1885. Po završetku studija postao je vojni apotekar. Pošto je u Srbiji bio mali broj hemičara, a doktora hemije, sa njim samo tri, ministar unutrašnjih poslova ponudio je dr Dobroslavu mesto državnog hemičara čija je dužnost bila da vrši preglede apoteka u Beogradu i Srbiji. Dr Dobroslav je prihvatio ponuđeno mesto pod uslovom da mu se omogući šestomesečno usavršavanje iz sudsko-medicinske hemije, što mu je i omogućeno. Na specijalizaciji iz sudsko-medicinske hemije bio je kod profesora dr Ludvika u Beču. Po završetku specijalizacije postao je državni hemičar i na toj dužnosti ostao je sve do penzionisanja 1925. Objavio je veći broj radova iz obalsti hemije. Jedan je od osnivača Srpskog hemijskog društva 1897.\n\nNjegov sin Mihajlo rođen 18. decembra 1904. godine, u Beogradu. Ekonom-agronom, veleposednik. Oktobra 1944. godine, uhapšen od strane partizanskih snaga i od strane Vojnog suda osuđen na smrt. Streljan kao saradnik okupatora. Upisan u knjigu umrlih 1947., na strani 49., pod brojem 56. Tu piše: \"Smrt streljanjem na nepoznatom mestu 1945.\" Upis je izvršen na osnovu pismenog akta Vojnog suda I Armije S.A. broj 395/45., kada je potvrđena presuda Niškog Vojnog suda br.214/45. Njegova imovina je konfiskovana.\n\nPorodična vila Knez-Milojković je pretvorena u dom za decu \"Kristina Markišić\" koji i dan danas radi"},
+		
+		{ "key": "txt_kostaFirst", "value": "Kosta" },
+		{ "key": "txt_kostaLast", "value": "Stojanović"},
+		{ "key": "txt_kostaYear", "value": "1867-1921."},
+		{ "key": "txt_kosta", "value": "Rođen u Aleksincu 2. oktobara 1867., preminuo u Beogradu 3. januar 1921. Osnovnu pškolu je završio u Aleksincu a gimnaziju u Aleksincu i Nišu 1885. Upisuje prirodno-matematički odsek na Filozofskom fakultetu Velike škole u Beogradu gde je diplomirao juna 1889. kao najbolji student generacije a studirao je zajedno sa Mihailom Petrovićem Alasom. Od 1893. na studijskom boravku u Parizu prati predavanje vodećih francuskih naučnika iz oblasti matematike, astronomije, mehanike i fizike. Već 1905. postao je profesor fizičke matematike na Beogradskom univerzitetu. Nasledio ga je Milutin Milanković 1909. godine.\n\nPolitički se angažovao u Radiklanoj a kasnije u Demokratskoj stranci. Bio je član srpskih masonskih loža \"Pobratim\", zatim \"Ujedinjenje\". U vreme carinskog rata (1906-1910.) bio je ministar narodne privrede i najzaslužniji je za ekonomsko osamostaljivanje Srbije. U toku I svetskog rata u Nici je 1916. osnovao Klub narodnih poslanika svih klubova, čiji je bio predsednik. Sekretar je bio Branislav Nušić. Klub je bio opozicija vladi. Nakon I svetskog rata na mirovnoj konferenciji u Parizu 1919. učestovao je kao član srpske delegacije i po njegovim proračunima utvrđena je ratna šteta Srbiji. Objavio je više radova iz matematike, fizike, mehanike, sociologije i ekonomije. U jednom radu (1910.) predviđa stvaranje carinskog i federativnog saveza svih država Evrope."},
+		
+		{ "key": "txt_kostaTausFirst", "value": "Kosta" },
+		{ "key": "txt_kostaTausLast", "value": "Taušanović"},
+		{ "key": "txt_kostaTausYear", "value": "1852-1902."},
+		{ "key": "txt_kostaTaus", "value": "Političar i ekonomista Kosta Taušanović rođen je u Aleksincu 4. maja 1852. godine. Osnovnu školu i gimnaziju završio je u Aleksincu. Studirao je poljoprivredu i veterinu u Taboru u Češkoj i Hohenhajmu u Nemačkoj. Uz Nikolu Pašića jedan je od osnivača Radikalne stranke, rusofil, protivnik dinastije Obrenovića. Osuđivan je zbog učešća u Timočkoj buni 1883. Bio je predsednik Ustavotvorne skupštine 1888, gidine i jedan od učesnika u pistanju i donošenju slobodoumnih ustava od 1888. Bio je ministar unutrašnjih poslova, a u Pašićevoj vladi ministar privrede. Uložio je dosta truda na unapređenju privrede u Srbiji. Zbog Ivandanjskog atentata, organizovanog radi ubistva Milana Obrenovića 1899, u Beogradu, osuđen je na 9 godina robije ali je posle smrti kralja Milana 1901. oslobođen daljeg izdržavanja kazne.\n\nStaje je na čelu nekoliko beogradskih banaka, osnovao je prvo osiguravajuđe društvo u Srbiji, bio je jedan od osnivača Srpske banke DD u Zagrebu. Umro je u Rijeci 26. januara 1902. godine. Njegov spomenik, koji su podigli beogradski privrednici, nalazi se na ulatu u park Kalemegdan u Beogradu."},
+		
+		{ "key": "txt_mihailoFirst", "value": "Mihailo" },
+		{ "key": "txt_mihailoLast", "value": "Rašić"},
+		{ "key": "txt_mihailoYear", "value": "1858-1932."},
+		{ "key": "txt_mihailo", "value": "Rođen u Aleksincu 13. jula 1858. godine. Osnovnu školu i dva razreda gimnazije je završio u Aleksincu a Realnu gimnaziju završio je u Beogradu. U vojsku je stupio 1874. kao pitomac 11. klase Artiljerijske škole, koju je završio 1880. kao osmi u rangu, ispred budućih vojvoda Stepe Stepanovića i Živojina Mišića. Bioe je učesnik ratova 1876-78. Po njihovom završetku nastavlja školovanje na akademiji. Učestovovao je i u srpsko-bugarskom ratu 1885. Redovno je unapređivan i pukovnik je postao 1901.  Tokom naredne decenije bio je akter u topovskoj aferi, optužen za malverzacije prilikom nabavke naoružanja za vojsku. Oslobođen je optužbi ali je privremeno penzionisan.\n\nIako u penziji, kao rezervni oficir, u prvom balkanskom ratu postavljen je na mesto komandanta Dunavske divizije 2. poziva. U Kumanovskoj bici, zahvaljujući njegovim manvervima izvojevana je pobeda i on je ponovo vraćen u službu, unapređen u generala i odlikovan Karađorđevom zvezdom. Po završetku rata je postavljen za upravnika Vojne akademije i predsednika Vojnodisciplinskog suda. \n\nU Prvom svetskom ratu jedan je od najzaslužnijih za pobedu na Ceru. Od 27. februara 1916. delegat je srpske Vrhovne komande pri Vrhovnoj komandi francuske vojske a juna iste godine postao je šef Srpske vojne misije u Francuskoj. Od juna do decembra 1918. bio je ministar vojni u  dve Pašićeve vlade i prvi ministar vojske i mornarice u Kraljevini SHS. Preminuo je 17. februara 1932 u Beogradu. Njegova kuća još uvek postoji u Aleksincu.\n\nZa života je dobio Orden Karađorđeve zvezde, Orden Miloša Velikog, Orden Belog orla, Orden Takovskog krsta, Zlatnu i Srebrnu medalju za hrabrost, Spomenicu Kralja Petra I, Albansku spomenicu i više medalja od strana vlada Francuske, Engleske, Rusije, Italije, Grčke, Austrougarske, Turske, Bugarske, Crne Gore i Persije."},
+		
+		{ "key": "txt_milanFirst", "value": "Milan" },
+		{ "key": "txt_milanLast", "value": "Pecić"},
+		{ "key": "txt_milanYear", "value": "1865-1959."},
+		{ "key": "txt_milan", "value": "Rođen u Aleksincu 13. avgusta 1865. Osnovnu školu i nižu gimnaziju završio je u Aleksincu a višu u Nišu. Pravni fakultet završio je u Beogradu. Kao dobrovoljac je učestvovao u srpsko-bugarskom ratu 1885/86. nakon čega je kao vojni stipendista upućen u Beč na studije medicine. Od ušteđevine za vreme studija u Beču putovao je u Italiju i Francusku radi učenja jezika, a u Nemačku radi usavršavanja u struci slušajući predavanja na Vojno-medicinskoj akademiji u Berlinu.\n\nKao vojni lekar - sanitetski oficir izradio je model naših ratnih ranjeničkih nosila i poljskih apoteka, koje je srpska vojska upotrebljavala sve do završetka Prvog svetskog rata. U Valjevu je uz pomoć svojih kolega podigao vojnu bolnicu.\n\nU vojsci i u narodu je održao veliki broj predavanja u cilju podizanja zdravstvene kulture. Napisao je i objavio niz članaka iz svoje struke. O svom trošku objavio je studiju \"Vojno-sanitetska služba\", kao i popularnu studiju \"Higijena za narod\". Preminuo je u Beogradu 25. septembra 1959.\n\nKada god je dolazio u Aleksinac oblačio je novo odelo i obuvao novu obuću grupi mališana osnovaca - odličnih đaka u svom gradu. Svoju bogatu medicinsku biblioteku poklonio je Medicinskom fakultetu u Beogradu."},
+		{ "key": "txt_milosFirst", "value": "Miloš" },
+		{ "key": "txt_milosLast", "value": "Trivunac"},
+		{ "key": "txt_milosYear", "value": "1876-1944."},
+		{ "key": "txt_milos", "value": "Rođen je u Subotincu kraj Aleksinca 26. jula 1876. godine. Prva školska znanja stekao je u Aleksincu, a potom je bio učesnik aleksinacčke i niške gimnazije. Studirao je i stučno se usavršavao u Beogradu, Lajpcigu i Minhenu gde je doktorirao 1902. \n\nIako je u srpskoh nauci ostao upamćen kao germanista, osnivač i redovni profesor Katedre za germanistiku na Filozofskom fakultetu u Beogradu, veliki deo svog školovanja Trivunac je posvetio izučavanju francuskog i engleskog jezika i romanistike. Tako da je tokom života po potrebi držao predavanja i iz oblasti francuskog i engleskog jezika i književnosti. Godine 1905. postavljen je za stalnog docenta na Filozofskom fakultetu Univerziteta u Beogradu a od 1922. redovni je profesor na Katedri za nemački jezik i književnost. Dva puta je bio dekan Filozofskog fakulteta. \n\nGovorio je nekoliko stanih jezika. Akademik je postao 1939. Osnovao je 1941. \"Zadužbinu Miloša Trivunca i njegove majke Mileve\", kojoj je namenio prihode od prodaje svojih udžbenika i knjiga, u cilju nagrađivanja istaknutih prosvetnih radnika i izdavanja knjiga za narod. Zbog zalaganja za proterivanje političke indoktrinacije sa fakulteta, naročito komunističke, kao i zbog učešća u vladi Milana Nedića, uhapšen je odmah po oslobođenju Beograda i ubrzo streljan 30. decembra 1944."},
+		
+		{ "key": "txt_protaFirst", "value": "Prota Stevan" },
+		{ "key": "txt_protaLast", "value": "Dimitrijević"},
+		{ "key": "txt_protaYear", "value": "1866-1953."},
+		{ "key": "txt_prota", "value": "Rođen je u Aleksincu 10. januara 1866. godine u kome je zabršio i osnovnu školu i prvi razred niže gimnazije, dok je ostale razrede gimnazije u Beogradu. Nakon diplomirnja na beogradskoj Bogosloviji, 1884, kratko je radio kao veroučitelj. Oko 1886. prešao je u Niš, gde se zaposlio kao pisar u Crkvenom sudu. Godine 1890. rukopoložen je za đakona, a četri godine kasnije za sveštenika. U Kijevu je završio Duhovnu akademiju. \n\nZa rektora Bogoslovsko-učiteljske škole u Prizrenu postavljen je 1899. i 1910. gde je osnovao fond za pomoć prezaduženim Srbima. Njegova velika zasluga je u tome što se izborio da Hilandar ostane srpskoj crkvi. Za vreme rata bio je interniran od Bugara 1920. i profesor petorici srpskih patrijarha. Urednik je mnogih časopisa i autor više radova. Podigao je hram Sv. Arhangelima Mihailu i Gavrilu na centralnom prostoru starog aleksinačkog groblja gde je i sahranjen. Poklonio je imanje Aleksincu da bi se na njemu podigla zgrada Tehničke škole koja danas nosi njegovo ime."},
+		
+		{ "key": "txt_ristaFirst", "value": "Rista" },
+		{ "key": "txt_ristaLast", "value": "Prendić"},
+		{ "key": "txt_ristaYear", "value": "1800-1892."},
+		{ "key": "txt_rista", "value": "Potiče iz cincarske porodice koja se početkom 19. veka naselila u Jagodini. Rođen je 1803. godine u Magarevu kraj Bitolja. Rista prelazi u Aleksinac oko 1833, i postaje tatarin kneza Miloša koji je u njega imao veliko poverenje. Služio je kao kurir engleskom konzulu, kneževima Mihailu, Aleksandru Karađorđeviću i knez Milanu. U to vreme reč tatarin označavala je državnog glasnika, zato što su Tatari predstavljali najveštije i najizdržljivije jahače. Pored pouzdanosti krasila ga je i brzina - rastojanje od Beograda do Carigrada (900km) jednom je prejahao za 100 sati. Kao knežev tatarin morao je da bude što lepše i kitinjastije odeven. Čitava odežda je mogla da varira u zavisnosti od cilja putovanja. Najskupoceniju odeću oblačio je kada bi išao veziru u Carigrad. Za svoje usluge kneževi su ga bogato nagrađivali a turski sultan ga je odlikovao Ordenom Medžije.\n\nNjegova kuća je najreprezentativnija u gradu i u njoj su odsedali kneževi i drugi viđeniji gosti. Srušena je 1935. Na njenom mestu sazidana je zgrada gimnazije, danas zgrada osnovne škole Ljupče Nikolić.\n\nPrenosio je najpoverljiviju državnu poštu. Godine 1867. iz Carigrada je doneo knezu Mihailu pismo kojim ga veliki vezir obaveštava o odluci da se Srbiji predaju utvrđeni gradovi. Bio je član visoke državne delegacije koja je, dve nedelje kasnije, sa knezom otišla u Carigrad da se zahvali sultanu zbog predaje gradova. Poslednji put je išao za Carigrad u 73. godini. Penzionisan je 1882."},
+		
+		{ "key": "txt_tihomirFirst", "value": "Tihomir" },
+		{ "key": "txt_tihomirLast", "value": "Đorđević"},
+		{ "key": "txt_tihomirYear", "value": "1968-1944."},
+		{ "key": "txt_tihomir", "value": "Tihomir je rođen u Knjaževcu 18. februara 1868. godine ali se porodica Đorđević ubrzo po njegovom rođenju preselila u Lužane, pošto je njegov otac postao sveštenik u tešičkoj crkvi. U Tešici je Đorđević pohađao osnovnu školu. Nižu gimnaziju je završio u Aleksincu a višu u Nišu. Završio je 1891. Istorijsko filološki odsek Velike škole u Beogradu. Posle kraće državne službe u Beogradu, vraća se u Aleksinac gde službuje i radi kao profesor gimnazije a zatim profesor Učiteljske škole i direktor gimnazije. \n\nU Aleksincu je 1899. godine pokrenuo Karadžić, „list za narodni život, običaje i predanja“. Putuje po evropi i posvćuje se proučavanju narodnog života i narodne kulture. Etnologiju specijalizira u Beču 1902. u Minhenu doktorira sa studijom \"Cigani u Srbiji\". Po osnivanju Univerziteta u Beogradu, Đorđević je 1906. docent za etnologiju, zatim 1909. vanredni a 1921. redovni profesor Beogradskog Filozofskog fakulteta.\n\nUčestvovao je u Balkanskim ratovima i Prvom svetskom ratu, prešavši Albaniju sa srpskom vojskom. Nakon prvog svetskog rata je u Evropi održao veliki broj predavanja o Srbiji i srpskom narodu. Godine 1921. izabran je za dopisnog a 1937. i za redovnog člana Srpske kraljevske akademije.\n\nZa vreme Drugog svetskog rata zatvaran je u logor na Banjici. Umro je 28. maja 1944. u Beogradu od posledica iznemoglosti zbog boravka u logoru. Napisao je oko sedam stotina radova. Pisao je o narodnom životu Srba i drugih naroda na teritoriji Srbije (Roma, Vlaha, Cincara itd). Najznačajnije njegovo delo je Naš narodni život, objavljeno u devet tomova.\n\nOsnovna škola  u Tešici je izvesno vreme nosila njegovo ime."},
+		
+		
+		{ "key": "btn_camera", "value": "pokreni kameru"},
+		{ "key": "btn_galerija", "value": "galerija"},
+		
+		{ "key": "gal_adrMapa", "value": "Vojna karta bitke kod Adrovca" },
+		{ "key": "gal_adrRajevski", "value": "Pukovnik Nikolaj Nikolajevič Rajevski"},
+		{ "key": "gal_adrKapa", "value": "Crkva Svete Trojice i kapa Rajevskog sa rupom od metka"},
+		{ "key": "gal_adrPrenos", "value": "Prenos tela pukovnika Rajevskog"},
+		{ "key": "gal_adrSpomen", "value": "Spomenik na mestu pogibije Rajevskog, postavljen 1887."},
+		
+		{ "key": "gal_natoTrivunca", "value": "Ulica Dušana Trivunca nakon 5. aprila" },
+		{ "key": "gal_natoHitna", "value": "U toku bombardovanja su oštećene zgrade hitne pomoći i doma zdravlja"},
+		{ "key": "gal_natoTrivunca7", "value": "U potrazi za poginulima"},
+		{ "key": "gal_natoVuka", "value": "Ulica Vuka Karadžića nakon 5, aprila"},
+		{ "key": "gal_natoGradjani", "value": "Šta sada?"},
+		
+		{ "key": "gal_sumatovacMapa", "value": "Vojna karta bitke na Šumatovcu" },
+		{ "key": "gal_sumatovacPogibija", "value": "Pogibija kapetana Živana Protića. Crtež Ferdinandusa, gravira Bojarskog"},
+		{ "key": "gal_sumatovacCrkva", "value": "Crkva Sv. Trojice podignuta je na starim temeljima 1885. a osvećena je 1888. godine"},
+		{ "key": "gal_sumatovacSpomen", "value": "Spomen obeležje na Šumatovcu podignuto 2006. godine"},
+		
+		{ "key": "gal_delMapa", "value": "Deligradski šančevi 1813. godine. Snimio ih je i opisao Jovan Mišković pre Srsko-Turskih ratova 1876-78." },
+		{ "key": "gal_delSkola", "value": "OŠ u Deligradu u kojoj je bio smešten štab generala Černjajeva, komandanta Moravsko-Timočke vojske."},
+		{ "key": "gal_delTrijumf", "value": "Trijumfalna kapija podignuta u čast proglašenja Srbije za kraljevinu, a kneza Milana za kralja 1876."},
+		{ "key": "gal_delLjubica", "value": "Članice Pododbora društva \"Knjeginja Ljubica\" iz Aleksinca"},
+		{ "key": "gal_delCrkva", "value": "Spomen-crkva na Deligradu na snimku iz vremena pre Drugog svetskog rata"},
+		{ "key": "gal_delSpomen", "value": "Na spomen-crkvi je postavljena spomen ploča koja govori o njenom podizanju"},
+		{ "key": "gal_delKosturnica", "value": "Kosturnica palih ratnika od 1806. do 1918. godine"},
+		
+		{ "key": "gal_borislav", "value": "Borislav Stevanović" },
+		
+		{ "key": "gal_budimir", "value": "Budimir Hristodulo"},
+		{ "key": "gal_budimirZejtinlik", "value": "Zejtinlik"},
+		{ "key": "gal_budimirMauzolej", "value": "Mauzolej na ostvu Vido"},	
+		{ "key": "gal_knez", "value": "Dobrosav Knez-Milojković"},
+		{ "key": "gal_knezSin", "value": "Sin Dobrosava, Miša Knez-Milojković" },
+		{ "key": "gal_knezVila", "value": "Vila Knez-Milojković, današnji dom za decu"},	
+		{ "key": "gal_kosta", "value": "Kostadin Kosta Stojanović"},
+		
+		{ "key": "gal_kostaTaus", "value": "Kosta Taušanović"},
+		{ "key": "gal_kostaTausBista", "value": "Bista Koste Taušanovića na ulazu u Kalemegdasnki park"},
+		
+		{ "key": "gal_mihailo", "value": "Mihailo Rašić"},
+		
+		{ "key": "gal_milan", "value": "Milan Pecić" },
+		
+		{ "key": "gal_milos", "value": "Miloš Trivunac"},
+		
+		{ "key": "gal_prota", "value": "Prota Stevan Dimitrijević - digitalna obrada"},
+		{ "key": "gal_protaOkrugli", "value": "Prota Stevan Dimitrijević"},
+		
+		{ "key": "gal_rista", "value": "Rista Prendić"},
+		{ "key": "gal_ristaKuca", "value": "Kuća Riste Prendića"},
+		{ "key": "gal_ristaKucaCrkva", "value": "Kuća Riste Prendića sa pogledom na Crkvu, današnja OŠ Ljupče Nikolić"},
+		{ "key": "gal_ristaPasos", "value": "Pasoš Riste Prendića"},
+		{ "key": "gal_ristaZena", "value": "Rista sa suprugom"},
+		{ "key": "gal_ristaKonj", "value": "Rista na konju"},
+		{ "key": "gal_ristaJase", "value": "Tatar Rista Prendić i surudžija 1861."},
+		{ "key": "gal_tihomir", "value": "Tihomir Đorđević"}
+
 	]
 }
+
+
+
