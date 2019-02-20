@@ -33,14 +33,7 @@ public class ApplicationManager : MonoBehaviour
     // Vraca poslednji panel koji je korisnik obisao bez uklanjanja
     public GameObject GetLastPanel()
     {
-        if (panels.Count > 0)
-        {
-            return panels.Peek();
-        }
-        else
-        {
-            return null;
-        }
+        return panels.Peek();
     }
 
     // Dodaje poslednji panel koji je korisnik obisao
@@ -49,7 +42,8 @@ public class ApplicationManager : MonoBehaviour
         panels.Push(panel);
     }
 
-    public int ReturnCount()
+    // Vraca broj panela koje je korisnik obisao
+    public int GetPanelsCount()
     {
         return panels.Count;
     }

@@ -6,6 +6,12 @@ using UnityEngine.UI;
 // Postavlja se na element sa slikama jer se njegova pozicija snap-uje
 public class SnapScrolling : MonoBehaviour
 {
+    [Header("Scroll")]
+    // scroll u kome se nalaze slike
+    public ScrollRect scrollRect;
+    // minimalna brzina nakon koje se gasi inercija scroll-a
+    public float minScrollVelocity = 400.0f;
+
     [Header("Images")]
     // container sa slikama (element koji se snap-uje)
     public GameObject imageContainer;
@@ -69,6 +75,12 @@ public class SnapScrolling : MonoBehaviour
     
     private void FixedUpdate()
     {
+        // Inercija scroll-a se iskljucuje ukoliko je galerija na prvoj ili poslednjoj slici i korisnik zabacuje scroll
+        if(contentRect.anchoredPosition.x >= imagePos[0].x && !isScrolling ||
+            contentRect.anchoredPosition.x <= imagePos[images.Length-1].x && !isScrolling)
+        {
+            scrollRect.inertia = false;
+        }
         // Trazi se ID slike koja je najbliza centru, tako sto se izracunava udaljenost svake slike od centra
         // slika koja ima najmanju udaljenost postaje kandidat za snap kada se skrol otpusti
         float nearestPos = float.MaxValue;
@@ -93,10 +105,12 @@ public class SnapScrolling : MonoBehaviour
         {
             pageIndicators[selectedImageID].sprite = pageActive;
         }
-        // Ukoliko se ne scrolla radi se snap(interpolacija) na najblizu sliku
-        if (!isScrolling)
+        // Ukoliko se ne scrolla i brzina skrolanja je pala ispod minimalne, radi se snap(interpolacija) na najblizu sliku
+        float scrollVelocity = Mathf.Abs(scrollRect.velocity.x);
+        if (!isScrolling && scrollVelocity < minScrollVelocity)
         {
-            // caption tekst se tek kada se izabere slika (prestane interakcija)
+            scrollRect.inertia = false;
+            // caption tekst se pojavljuje tek kada se izabere slika (prestane interakcija)
             if (!captionTexts[selectedImageID].activeSelf)
             {
                 captionTexts[selectedImageID].SetActive(true);
@@ -112,5 +126,7 @@ public class SnapScrolling : MonoBehaviour
     public void SetScrolling(bool scroll)
     {
         isScrolling = scroll;
+        if (isScrolling)
+            scrollRect.inertia = true;
     }
 }

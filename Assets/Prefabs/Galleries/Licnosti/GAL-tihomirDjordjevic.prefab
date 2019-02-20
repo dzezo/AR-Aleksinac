@@ -88,7 +88,7 @@ GameObject:
   - component: {fileID: 6688744945302265302}
   m_Layer: 5
   m_Name: GAL-tihomirDjordjevic
-  m_TagString: Gallery
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -100,7 +100,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1045577529540570627}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -565,6 +565,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94cec86e4a1fc0746b86ee323d8b130c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scrollRect: {fileID: 2858827322803852746}
+  minScrollVelocity: 400
   imageContainer: {fileID: 2474253964388570960}
   imageOffset: 30
   imageSnapSpeed: 20
