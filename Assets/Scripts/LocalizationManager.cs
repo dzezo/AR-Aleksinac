@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
+using UnityEngine.Networking;
 
 public class LocalizationManager : MonoBehaviour
 {
@@ -48,6 +49,34 @@ public class LocalizationManager : MonoBehaviour
         {
             Debug.Log("Cannot find file!");
         }
+    }
+
+   // Na androidu, fajlovi se nalaze unutar kompresovanog .jar fajla, sto znaci da ukoliko zelimo da procitamo njihov sadrzaj
+   // potrebno je koristiti WWW klasu
+   IEnumerator LoadLocalizedTextOnAndroid(string fileName)
+    {
+        localizedText = new Dictionary<string, string>();
+        string filePath = Path.Combine(Application.streamingAssetsPath, fileName);
+
+        string dataAsJson;
+        if (filePath.Contains("://") || filePath.Contains(":///"))
+        {
+            UnityWebRequest www = UnityWebRequest.Get(filePath);
+            yield return www.SendWebRequest();
+            dataAsJson = www.downloadHandler.text;
+        }
+        else
+        {
+            dataAsJson = File.ReadAllText(filePath);
+        }
+
+        LocalizationData loadedData = JsonUtility.FromJson<LocalizationData>(dataAsJson);
+        for (int i = 0; i < loadedData.items.Length; i++)
+        {
+            localizedText.Add(loadedData.items[i].key, loadedData.items[i].value);
+        }
+
+        isReady = true;
     }
 
     // Funkcija za citanje recnika koja vraca tekst mapiran na prosledjeni kljuc
