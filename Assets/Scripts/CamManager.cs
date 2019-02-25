@@ -11,6 +11,15 @@ public class CamManager : MonoBehaviour
         Screen.sleepTimeout = SleepTimeout.NeverSleep;
     }
 
+    void Update()
+    {
+        // Input Esc predstavlja strelicu unazad na Androidu
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            QuitCam();
+        }
+    }
+
     // Iskljucuje AR kameru, vraca se na MenuScreen scenu
     public void QuitCam()
     {
