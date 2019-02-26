@@ -42,18 +42,34 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 50e9f9416b69bd84b934581224dacaac, type: 3}
-    totalSpriteSurfaceArea: 4225296
+    totalSpriteSurfaceArea: 4408695
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 21300000, guid: a2219972c2481d94991d8ecb8c8f5234, type: 3}
+  - {fileID: 21300000, guid: ace2bd34b8bcdef40a5df2c386d29536, type: 3}
+  - {fileID: 21300000, guid: 1e12e7949ff9bec4c818aae8abc17b16, type: 3}
+  - {fileID: 21300000, guid: 179f0cf5af9de2148bb918e9bc7ecd54, type: 3}
   - {fileID: 21300000, guid: 68e8644613dfcd347ae3405073b3ff58, type: 3}
   - {fileID: 21300000, guid: 146c42677d900c749ac3b0a8df26602a, type: 3}
+  - {fileID: 21300000, guid: 85eb807952ea3eb488516110a656aa54, type: 3}
+  - {fileID: 21300000, guid: 4859e6b978027d543bfec5292825a4e5, type: 3}
+  - {fileID: 21300000, guid: 7787031a16e3b43489ccb5c5f5ed5f69, type: 3}
+  - {fileID: 21300000, guid: d3e09d9cbea55424592042127a7796d4, type: 3}
   - {fileID: 21300000, guid: 5c1844ceabf41d24d9a40ff672c90a1d, type: 3}
+  - {fileID: 21300000, guid: 6b04bcafa9aeb5d4fbdb0200238322dc, type: 3}
   m_PackedSpriteNamesToIndex:
   - glavnaUlica
+  - socijalno1
+  - sup1
+  - ujedinjenje1
   - background
   - gimnazija
+  - ruski1
+  - ljupce1
+  - unikredi1
+  - crkva1
   - rudnik-manja
+  - film
   m_Tag: ImagesAtlas
   m_IsVariant: 0

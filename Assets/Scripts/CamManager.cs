@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class CamManager : MonoBehaviour
 {
+
     void Start()
     {
         // Onemogucavanje zatamljenja ekrana
@@ -25,4 +26,5 @@ public class CamManager : MonoBehaviour
     {
         SceneManager.LoadScene("MenuScreen");
     }
+
 }
