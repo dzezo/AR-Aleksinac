@@ -42,7 +42,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 275b82cf439cd114b8fd922e4978259d, type: 3}
-    totalSpriteSurfaceArea: 7550873
+    totalSpriteSurfaceArea: 8222763
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
@@ -56,16 +56,18 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 512cce556140271469e4a8885e927538, type: 3}
   - {fileID: 21300000, guid: df896e65c546c264da32a8084d90ae69, type: 3}
   - {fileID: 21300000, guid: 6fe37066bdd418845b0daace38d68cbc, type: 3}
+  - {fileID: 21300000, guid: efedab86193580a47aaf86c52e3ac529, type: 3}
   - {fileID: 21300000, guid: 782cdc86f7dccb646a1731b35fbcaa28, type: 3}
   - {fileID: 21300000, guid: 335daf08abf136a418c902bfb06039a8, type: 3}
   - {fileID: 21300000, guid: b00f4348fee67784bbcc5720aefe6cf3, type: 3}
+  - {fileID: 21300000, guid: 314f646884df49647807fedea5c7d266, type: 3}
   - {fileID: 21300000, guid: a92ab979ddccfd645bb9c9557b4f3f3b, type: 3}
   - {fileID: 21300000, guid: a32d4b89bb3a9ab4d8618aef0280118a, type: 3}
-  - {fileID: 21300000, guid: ea63bc1aa9dd55c4f9f414d1163ff075, type: 3}
   - {fileID: 21300000, guid: 3d36144a5558a8c4db71142ca65315b7, type: 3}
   - {fileID: 21300000, guid: d63397ca7c1bfe048ac18b38b3aaa1d4, type: 3}
   - {fileID: 21300000, guid: 55b6b2fbeb3acb149a705f21601b5328, type: 3}
   - {fileID: 21300000, guid: 97baeb1d917e91340ac352b5cbbd0a3f, type: 3}
+  - {fileID: 21300000, guid: d1e13c2dc5c66f24b8fcf14339b48ab2, type: 3}
   - {fileID: 21300000, guid: bfc9d04e0123b0b4c91cc39f2360a55e, type: 3}
   - {fileID: 21300000, guid: 1460396ed633c8e4d929dfd4dda2b190, type: 3}
   - {fileID: 21300000, guid: ed08532ff7cf966458d8ad8ee685e32d, type: 3}
@@ -80,16 +82,18 @@ SpriteAtlas:
   - prota_btn
   - milos_btn
   - dugme_0002_prazan-radio
+  - dugmeNatoSelected
   - dugme_0000_izlaz
   - kosta_btn
   - dugme_0005_nazad
+  - strelica2
   - 01.Menu_3
   - dugme_0000_nato
-  - dugme_0004_side_dropdown
   - tihomir_btn
   - mihailo_btn
   - borislav_btn
   - milan_btn
+  - dugmeBitkaSelected
   - kostaTaus_btn
   - dugme_0001_aktiviran-radio
   - 01.Menu_1
