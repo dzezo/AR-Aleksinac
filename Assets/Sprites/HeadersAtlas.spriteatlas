@@ -42,7 +42,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 8f331f22c06c7aa45a91dcaf5a796095, type: 3}
-    totalSpriteSurfaceArea: 13777706
+    totalSpriteSurfaceArea: 13947491
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
@@ -64,6 +64,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: c7b89eecdd0821147bb0bf19ed3d5808, type: 3}
   - {fileID: 21300000, guid: db31d51da6d97e0469f0d6c40328edd5, type: 3}
   - {fileID: 21300000, guid: 3698203fb0569164e81fc4ea8a690006, type: 3}
+  - {fileID: 21300000, guid: b5f2df6ff12f98e45bf995758e278cdb, type: 3}
   - {fileID: 21300000, guid: c05878ff1e7e77c4ea34b466d07590f7, type: 3}
   m_PackedSpriteNamesToIndex:
   - prota
@@ -84,6 +85,7 @@ SpriteAtlas:
   - deligradNaslovna
   - 04.U_ratu_naslovna
   - milos
+  - crkvaHeader
   - NATOnaslovna
   m_Tag: HeadersAtlas
   m_IsVariant: 0
