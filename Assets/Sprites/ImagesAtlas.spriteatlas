@@ -42,7 +42,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 50e9f9416b69bd84b934581224dacaac, type: 3}
-    totalSpriteSurfaceArea: 5846295
+    totalSpriteSurfaceArea: 6207747
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
@@ -53,6 +53,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 179f0cf5af9de2148bb918e9bc7ecd54, type: 3}
   - {fileID: 21300000, guid: 68e8644613dfcd347ae3405073b3ff58, type: 3}
   - {fileID: 21300000, guid: 146c42677d900c749ac3b0a8df26602a, type: 3}
+  - {fileID: 21300000, guid: f7e066082f53f4949aa829cf6de05cdd, type: 3}
   - {fileID: 21300000, guid: 85eb807952ea3eb488516110a656aa54, type: 3}
   - {fileID: 21300000, guid: 4859e6b978027d543bfec5292825a4e5, type: 3}
   - {fileID: 21300000, guid: 7787031a16e3b43489ccb5c5f5ed5f69, type: 3}
@@ -67,6 +68,7 @@ SpriteAtlas:
   - ujedinjenje1
   - background
   - gimnazija
+  - polaroid
   - ruski1
   - ljupce1
   - unikredi1
