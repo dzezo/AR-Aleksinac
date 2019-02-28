@@ -12,7 +12,9 @@ public class LoopScrolling : MonoBehaviour
     public bool autoRotation = true;
     public float autoRotationVelocity;
     private Vector2 velocityVector;
-    public float autoRotationDelay; // in sec
+    [Tooltip("Delay is in seconds")]
+    public float autoRotationDelay;
+    public float autoRotationInitDelay;
     private float startRotationTime;
     private bool autoRotateRight = true;
 
@@ -31,6 +33,7 @@ public class LoopScrolling : MonoBehaviour
     void Start()
     {
         velocityVector = new Vector2(autoRotationVelocity, 0);
+        startRotationTime = Time.realtimeSinceStartup + autoRotationInitDelay;
 
         contentRect = GetComponent<RectTransform>();
         images = new GameObject[gameObject.transform.childCount];
@@ -106,7 +109,7 @@ public class LoopScrolling : MonoBehaviour
         
         // Azuriraj limite
         rightLimit = leftLimit;
-        leftLimit = leftLimit - images[curr].GetComponent<RectTransform>().rect.width;
+        leftLimit = leftLimit - imageWidth;
     }
 
     private void SpawnLeft()
@@ -125,7 +128,7 @@ public class LoopScrolling : MonoBehaviour
         
         // Azuriraj limite
         leftLimit = rightLimit;
-        rightLimit = rightLimit + images[curr].GetComponent<RectTransform>().rect.width;
+        rightLimit = rightLimit + imageWidth;
     }
 
     // Operator % vraca ostatak (-1 % 7 = -1), ova funkcija vraca mod (-1 mod 7 = 6)
