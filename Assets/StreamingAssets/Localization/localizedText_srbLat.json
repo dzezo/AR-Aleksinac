@@ -172,28 +172,28 @@
 		{ "key": "gal_ristaJase", "value": "Tatar Rista Prendić i surudžija 1861."},
 		{ "key": "gal_tihomir", "value": "Tihomir Đorđević"},
 		
-		{ "key": "man_info", "value": "Uz pomoć kamere na telefonu možete videti kako je izgledala gradska arhitektura Aleksinca u prošlosti.\n\nTačno sa lokacije koju vidite na slici, uperite kameru ka zgradi i zavirite u prošlost."},
+		{ "key": "man_info", "value": "Uz pomoć kamere na telefonu možete videti kako je izgledala gradska arhitektura Aleksinca u prošlosti. Tačno sa lokacije koju vidite na slici, uperite kameru ka zgradi i zavirite u prošlost."},
 		{ "key": "man_crkva", "value": "Crkva Sv. Nikole"},
 		{ "key": "man_ljupce", "value": "OŠ Ljupče Nikolić"},
-		{ "key": "man_sup", "value": "Idea"},
+		{ "key": "man_ujedinjenje", "value": "Idea"},
 		{ "key": "man_ruski", "value": "Ruski spomenik"},
-		{ "key": "man_unikredi", "value": "Centar za socijalni rad"},
-		{ "key": "man_ujedinjenje", "value": "Sup"},
-		{ "key": "man_socijalno", "value": "Unikredit banka"},
+		{ "key": "man_socijalno", "value": ""},
+		{ "key": "man_sup", "value": "Sup"},
+		{ "key": "man_unikred", "value": "Unikredit banka"},
 		
-		{ "key": "man_crkvaContent", "value": "	Na fotografiji ćete videti crkvu ograđenu drvenom ogradom koja je 1933. godine zamenjena betonskom, koja i sad ograđuje crkvu.\n\nKnjaz Miloš je pokrenuo pitanje građenja crkava u šest novo-oslobođenih nahija. Mesto za crkvu u Aleksincu izabrao je mitropolit Petar Jovanović. 26. jula (7. avgusta) 1836. godine je posetio Aleksinac i sa građanima odabrao mesto za crkvu.\n\nSa građenjem  crkve započelo se iste godine. Izgradnja je završena novembra 1837. godine. U toku građenja crkve Miloš je odredio da crkva bude posvećena Svetom Nikoli i to 9. (22.) maja da bi se narod lakše na slavu okupio."},
+		{ "key": "man_crkvaContent", "value": "Na kameri ćete videti crkvu ograđenu drvenom ogradom koja je 1933. godine zamenjena betonskom.\n\nKnjaz Miloš je pokrenuo pitanje građenja crkave. Mesto za crkvu izabrao je mitropolit Petar Jovanović sa građanima 1836. godine.\n\nGrađenje crkve započelo je iste godine a završena je 1837. godine. Knjaz Miloš je odredio da crkva bude posvećena Svetom Nikoli i to 9. (22.) maja da bi se narod lakše okupio."},
 		
-		{ "key": "man_ljupceContent", "value": "Videćete nekadašnju, drugu po redu, zgradu gimnazije\n\nU ovoj zgradi radila je Aleksinačka gimnazija od 1. oktobra 1936. do 4. marta 1963. godine. Zgradu je podigla Aleksinačka opština za potrebe gimnazije. Projekat zgrade iradio je inženjer Nedeljko Divac, a zgrada je završena 1936. godine kada je predsednik Opštine bio Milan Nikoloć, zvani Milan Lader.\n\nGrube radove izvodio je inženjer Vlajko Stoiljković, a završne građevinar Milan Leder."},
+		{ "key": "man_ljupceContent", "value": "Na kameri ćete videti nekadašnji izgled zgrade gimnazije\n\nU njoj je gimnazija radila od 1. oktobra 1936. do 4. marta 1963. godine. Zgradu je podigla Aleksinačka opština za potrebe gimnazije. Projekat zgrade izradio je inženjer Nedeljko Divac, a zgrada je završena 1936. godine.\n\nGrube radove izvodio je inženjer Vlajko Stoiljković, a završne građevinar Milan Leder."},
 		
-		{ "key": "man_sup", "value": "Videćete prilično nepromenjen izgled zgrade Supa, nekadašnjeg Sreza. Sama zgrada je podignuta oko 1908. godine. Projektant zgrade je nepoznat, a zgradu je zidao Blagoje Trivunac, preduzimač iz Aleksinca."},
+		{ "key": "man_supContent", "value": "Na kameri ćete videti prilično nepromenjen izgled zgrade Supa, nekadašnjeg Sreza.\n\nSama zgrada je podignuta oko 1908. godine. Projektant zgrade je nepoznat, a zgradu je zidao Blagoje Trivunac, preduzimač iz Aleksinca."},
 		
-		{ "key": "man_ruski", "value": "Nekadašnji izgled Spomenika ruskim dobrovoljcima poginulim u Srbiji u Prvom srpsko-turskom ratu podignut je u parku Brđanka 1880. godine u redutu (šancu) broj 4 koji je nosio ime Aleksinački redut. Spomenik je u vidu pramide visok 12 metara, a urađen je od kamena sa Ozrena."},
+		{ "key": "man_ruskiContent", "value": "Na kameri ćete videti nekadašnji izgled Spomenika ruskim dobrovoljcima poginulim u Srbiji u Prvom srpsko-turskom ratu.\n\nPodignut je u parku Brđanka 1880. godine u redutu (šancu) broj 4 koji je nosio ime Aleksinački redut. Spomenik je u vidu pramide visok 12 metara, a urađen je od kamena sa Ozrena."},
 		
-		{ "key": "man_unikredi", "value": "Na fotografiji ćete videti kuću na ulazu u nekadašnju ulicu Kralja Petra"},
+		{ "key": "man_unikredContent", "value": "Na kameri ćete videti kuću na ulazu u nekadašnju ulicu Kralja Petra"},
 		
-		{ "key": "man_ujedinjenje", "value": "Na slici ćete videtei Hotel Ujedinjenje. On se nalazio na raskrsnici današnjih ulica knjaza Miloša i Taušanovićeve. Na njegovom mestu se zatim nalazio hotel Novi Balkan a sada se tu nalazi prodavnica Idea."},
+		{ "key": "man_ujedinjenjeContent", "value": "Na kameri ćete staru zgradu hotela Ujedinjenje.\n\nOn se nalazio na raskrsnici današnjih ulica knjaza Miloša i Taušanovićeve. Zgrada hotela je srušena a na njegovom mestu se zatim nalazio hotel Novi Balkan dok je sada tu prodavnica Idea."},
 		
-		{ "key": "man_socijalno", "value": "Izgled zgrade dok je u njoj bilo zabavište.\n\nPododbor ,,Srpska majka'' u Aleksincu počeo je 1937. godine podizanje svoga doma na placu dobijenom od opštine Aleksinac. U njemu je od oktobra 1940. do februara 1941. godine radilo Dečje zabavište a onda je kratko vreme bio zauzet od vojske. Tokom okupacije u njemu su stanovale porodice izbegle iz Makedonije.\n\nPododbor društva u Aleksincu je prestao sa radom 1947. godine. Zgradu doma preuzeo je Centar za socijalni rad i u njega uselio Dečje zabavište. Dečje zabavište u ovom Domu radiće sve do 1974. U zgradi Doma ,,Srpska majka'' useljava se Centar za socijalni rad opštine gde radi sve do 2016. godine."}
+		{ "key": "man_socijalnoContent", "value": "Na kameri ćete videti izgled zgrade dok je u njoj bilo zabavište.\n\nOvu zgradu je podigao Aleksinački pododbor društva ,,Srpska majka''. U njemu je u periodu 1940-41. radilo Dečje zabavište a onda je kratko vreme bio zauzet od vojske. Tokom okupacije u njemu su stanovale porodice izbegle iz Makedonije.\n\nPododbor prestaje sa radom 1947. godine. i u zgradu doma se useljava Dečje zabavište. Ono u ovom Domu radi sve do 1974. Kasnije se useljava Centar za socijalni rad gde radi sve do 2016. godine."}
 		
 
 	]
