@@ -23,7 +23,7 @@ SpriteAtlas:
     platformSettings:
     - serializedVersion: 2
       m_BuildTarget: DefaultTexturePlatform
-      m_MaxTextureSize: 8192
+      m_MaxTextureSize: 4096
       m_ResizeAlgorithm: 0
       m_TextureFormat: -1
       m_TextureCompression: 1
@@ -42,27 +42,32 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 8f331f22c06c7aa45a91dcaf5a796095, type: 3}
-    totalSpriteSurfaceArea: 13947491
+    totalSpriteSurfaceArea: 18500291
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 21300000, guid: 4162e600e31655d438d2b1560392493e, type: 3}
   - {fileID: 21300000, guid: def647d0f00d43d458704159ed53ef3f, type: 3}
   - {fileID: 21300000, guid: 1fe3bfe2ee6e8884d968570c8707e8bc, type: 3}
-  - {fileID: 21300000, guid: 6dc86113f15530f468e0ab793730eb5c, type: 3}
   - {fileID: 21300000, guid: b27d296308b0bad4b95ae809571e294b, type: 3}
+  - {fileID: 21300000, guid: 0e542e84c77f67546917dc3df8eeb497, type: 3}
   - {fileID: 21300000, guid: f7bbb5e431db51443975f87443c37a20, type: 3}
   - {fileID: 21300000, guid: d7c52625bd31c734b97bba304feac402, type: 3}
   - {fileID: 21300000, guid: 136c9145674c076468e3f7842ea65e46, type: 3}
   - {fileID: 21300000, guid: bb659065a335fa34bba3c13c5fa20a55, type: 3}
+  - {fileID: 21300000, guid: e9897036b32d00548b4b644df4e99f6e, type: 3}
   - {fileID: 21300000, guid: 7dbb243604085944caf76fb511677fcc, type: 3}
   - {fileID: 21300000, guid: 164a0017cf166b94a8b79535ee1bd7c1, type: 3}
+  - {fileID: 21300000, guid: ac949bd7660c5a341a0d5131661b188d, type: 3}
   - {fileID: 21300000, guid: ea0130e750c631949a11fb06608c48ad, type: 3}
   - {fileID: 21300000, guid: e756362835e52be418ced5a4c7f5ccbf, type: 3}
   - {fileID: 21300000, guid: 94b234893c06c1b45a6cceed5d74ff79, type: 3}
+  - {fileID: 21300000, guid: 98645e2a184fb3b458ebd08681610b91, type: 3}
+  - {fileID: 21300000, guid: 698f32aa823683c41b75eae0b1569815, type: 3}
   - {fileID: 21300000, guid: dfd8b0eb802d2794688f361a6de4a481, type: 3}
   - {fileID: 21300000, guid: c7b89eecdd0821147bb0bf19ed3d5808, type: 3}
   - {fileID: 21300000, guid: db31d51da6d97e0469f0d6c40328edd5, type: 3}
+  - {fileID: 21300000, guid: 91694a0e3eb9c2c49bef0eec1fb35782, type: 3}
   - {fileID: 21300000, guid: 3698203fb0569164e81fc4ea8a690006, type: 3}
   - {fileID: 21300000, guid: b5f2df6ff12f98e45bf995758e278cdb, type: 3}
   - {fileID: 21300000, guid: c05878ff1e7e77c4ea34b466d07590f7, type: 3}
@@ -70,22 +75,27 @@ SpriteAtlas:
   - prota
   - 02.O_gradu_naslovna
   - milan
-  - 04.mapa
   - BorislavStevanovic
+  - headerSocijalno
   - mihailo
   - Budimir
   - RistaPrendic1800-1892
   - tihomir
+  - headerSup
   - 01.Menu_naslovna
   - knez
+  - headerUjedinjenje
   - 03.Licnosti_naslovna
   - Gornji Adrovac 1876
   - kostaTaus
+  - headerLjupce
+  - headerRuski
   - 05.Porvratak_naslovna
   - deligradNaslovna
   - 04.U_ratu_naslovna
+  - headerUnikred
   - milos
-  - crkvaHeader
+  - headerCrkva
   - NATOnaslovna
   m_Tag: HeadersAtlas
   m_IsVariant: 0

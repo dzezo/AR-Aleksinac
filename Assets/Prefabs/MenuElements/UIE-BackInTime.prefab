@@ -897,7 +897,8 @@ MonoBehaviour:
         m_MethodName: SwitchPanel
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgument: {fileID: 8968496140481110106, guid: c407c4a3581247847ad5027fb9dec4c4,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -1707,7 +1708,8 @@ MonoBehaviour:
         m_MethodName: SwitchPanel
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgument: {fileID: 4632385140761720009, guid: f89419c7f57cb914782b3a0a23bbf281,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -1983,7 +1985,8 @@ MonoBehaviour:
         m_MethodName: SwitchPanel
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgument: {fileID: 4801564160210541136, guid: 08ac13474a173984496367603dac602f,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -2111,7 +2114,8 @@ MonoBehaviour:
         m_MethodName: SwitchPanel
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgument: {fileID: 6777970512010680024, guid: fc9511e9823f3e84682d39ad1a5624fc,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -2239,7 +2243,8 @@ MonoBehaviour:
         m_MethodName: SwitchPanel
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgument: {fileID: 4024714682866832390, guid: 510be066a60cacc4a83f082562bc0181,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -2496,7 +2501,8 @@ MonoBehaviour:
         m_MethodName: SwitchPanel
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgument: {fileID: 3687755335631326133, guid: 311b40f238ff476479e50965bad59d6e,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0

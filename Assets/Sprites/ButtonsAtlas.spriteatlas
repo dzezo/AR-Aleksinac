@@ -42,7 +42,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 275b82cf439cd114b8fd922e4978259d, type: 3}
-    totalSpriteSurfaceArea: 8222763
+    totalSpriteSurfaceArea: 8165799
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
@@ -53,6 +53,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 67e567b2ed5811b41aac44cebb3a7c4b, type: 3}
   - {fileID: 21300000, guid: 9dbadf133ff2a95428d49ba541443a56, type: 3}
   - {fileID: 21300000, guid: 308153c41ca5bda46bc655fcad740393, type: 3}
+  - {fileID: 21300000, guid: 4df042f463370dc4c9658a6f7a69ec00, type: 3}
   - {fileID: 21300000, guid: 512cce556140271469e4a8885e927538, type: 3}
   - {fileID: 21300000, guid: df896e65c546c264da32a8084d90ae69, type: 3}
   - {fileID: 21300000, guid: 6fe37066bdd418845b0daace38d68cbc, type: 3}
@@ -60,7 +61,6 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 782cdc86f7dccb646a1731b35fbcaa28, type: 3}
   - {fileID: 21300000, guid: 335daf08abf136a418c902bfb06039a8, type: 3}
   - {fileID: 21300000, guid: b00f4348fee67784bbcc5720aefe6cf3, type: 3}
-  - {fileID: 21300000, guid: 314f646884df49647807fedea5c7d266, type: 3}
   - {fileID: 21300000, guid: a92ab979ddccfd645bb9c9557b4f3f3b, type: 3}
   - {fileID: 21300000, guid: a32d4b89bb3a9ab4d8618aef0280118a, type: 3}
   - {fileID: 21300000, guid: 3d36144a5558a8c4db71142ca65315b7, type: 3}
@@ -79,6 +79,7 @@ SpriteAtlas:
   - budimir_btn
   - dugme_0000_bitka
   - 01.Menu_4
+  - strelica
   - prota_btn
   - milos_btn
   - dugme_0002_prazan-radio
@@ -86,7 +87,6 @@ SpriteAtlas:
   - dugme_0000_izlaz
   - kosta_btn
   - dugme_0005_nazad
-  - strelica2
   - 01.Menu_3
   - dugme_0000_nato
   - tihomir_btn
