@@ -42,14 +42,13 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 8f331f22c06c7aa45a91dcaf5a796095, type: 3}
-    totalSpriteSurfaceArea: 19500291
+    totalSpriteSurfaceArea: 19227331
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 21300000, guid: 4162e600e31655d438d2b1560392493e, type: 3}
   - {fileID: 21300000, guid: def647d0f00d43d458704159ed53ef3f, type: 3}
   - {fileID: 21300000, guid: 1fe3bfe2ee6e8884d968570c8707e8bc, type: 3}
-  - {fileID: 21300000, guid: 6dc86113f15530f468e0ab793730eb5c, type: 3}
   - {fileID: 21300000, guid: 7c307053a785acd498fe8322031e51b8, type: 3}
   - {fileID: 21300000, guid: b27d296308b0bad4b95ae809571e294b, type: 3}
   - {fileID: 21300000, guid: 0e542e84c77f67546917dc3df8eeb497, type: 3}
@@ -77,7 +76,6 @@ SpriteAtlas:
   - prota
   - 02.O_gradu_naslovna
   - milan
-  - 04.mapa
   - 06.ZahvalniceHeader
   - BorislavStevanovic
   - headerSocijalno
