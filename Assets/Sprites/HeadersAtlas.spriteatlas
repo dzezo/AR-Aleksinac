@@ -42,7 +42,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 8f331f22c06c7aa45a91dcaf5a796095, type: 3}
-    totalSpriteSurfaceArea: 13947491
+    totalSpriteSurfaceArea: 14674531
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
@@ -50,6 +50,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: def647d0f00d43d458704159ed53ef3f, type: 3}
   - {fileID: 21300000, guid: 1fe3bfe2ee6e8884d968570c8707e8bc, type: 3}
   - {fileID: 21300000, guid: 6dc86113f15530f468e0ab793730eb5c, type: 3}
+  - {fileID: 21300000, guid: 7c307053a785acd498fe8322031e51b8, type: 3}
   - {fileID: 21300000, guid: b27d296308b0bad4b95ae809571e294b, type: 3}
   - {fileID: 21300000, guid: f7bbb5e431db51443975f87443c37a20, type: 3}
   - {fileID: 21300000, guid: d7c52625bd31c734b97bba304feac402, type: 3}
@@ -71,6 +72,7 @@ SpriteAtlas:
   - 02.O_gradu_naslovna
   - milan
   - 04.mapa
+  - 06.ZahvalniceHeader
   - BorislavStevanovic
   - mihailo
   - Budimir
