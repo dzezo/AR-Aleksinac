@@ -13,7 +13,7 @@ public class PrefabController : MonoBehaviour
     // Inicijalizacija
     void Start()
     {
-        menuCanvas = ApplicationManager.instance.menuCanvas;
+        menuCanvas = GameObject.FindWithTag("MasterCanvas");
     }
 
     // Slusanje inputa za back/exit dugme

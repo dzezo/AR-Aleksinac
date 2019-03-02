@@ -10,9 +10,6 @@ public class ApplicationManager : MonoBehaviour
     // Paneli koje je korisnik obisao (Istorija panela)
     private Stack<GameObject> panels = new Stack<GameObject>();
 
-    // Canvas glavnog menija
-    public GameObject menuCanvas;
-
     // Panel sa kojim pocinje glavni meni
     public GameObject menuDefaultPanel;
 
