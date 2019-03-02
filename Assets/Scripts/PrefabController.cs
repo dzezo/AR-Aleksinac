@@ -13,7 +13,7 @@ public class PrefabController : MonoBehaviour
     // Inicijalizacija
     void Start()
     {
-        menuCanvas = GameObject.FindWithTag("MasterCanvas");
+        menuCanvas = ApplicationManager.instance.menuCanvas;
     }
 
     // Slusanje inputa za back/exit dugme
@@ -30,7 +30,9 @@ public class PrefabController : MonoBehaviour
     public void SwitchBack()
     {
         // Ukoliko se korisnik vratio do pocetnog panela pokreni f-ju za iskljucivanje aplikacije
-        if (ApplicationManager.instance.GetPanelsCount() == 1)
+        // 0 - UIE-LangSelect
+        // 1 - UIE-MainMenu
+        if (ApplicationManager.instance.GetPanelsCount() <= 1)
         {
             QuitApp();
             return;
@@ -54,12 +56,16 @@ public class PrefabController : MonoBehaviour
         Destroy(gameObject);
     }
 
-    // Funkcija koja postavlja scenu za menjanje jezika
+    // Funkcija koja postavlja panel za menjanje jezika
     public void ChangeLang()
     {
-        // Resetuje se spremnost recnika i ucitava se scena
+        // Resetuje se spremnost recnika
         LocalizationManager.instance.ResetIsReady();
-        SceneManager.LoadScene("LanguageScreen");
+        // Instancira se panel za izbor jezika i dodaje se na stek kao poslednje korisceni panel
+        Instantiate(ApplicationManager.instance.languagePanel, menuCanvas.transform, false);
+        ApplicationManager.instance.SetLastPanel(ApplicationManager.instance.languagePanel);
+        // Sa scene se uklanja panel koji je pozvao ovu f-ju
+        Destroy(gameObject);
     }
 
     // Funkcija koja ukljucuje AR kameru

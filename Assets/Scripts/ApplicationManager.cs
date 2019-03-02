@@ -10,6 +10,15 @@ public class ApplicationManager : MonoBehaviour
     // Paneli koje je korisnik obisao (Istorija panela)
     private Stack<GameObject> panels = new Stack<GameObject>();
 
+    // Canvas glavnog menija
+    public GameObject menuCanvas;
+
+    // Panel sa kojim pocinje glavni meni
+    public GameObject menuDefaultPanel;
+
+    // Panal za selekciju jezika
+    public GameObject languagePanel;
+
     // Funkcija koja osigurava da u sistemu postoji samo jedna instanca
     private void Awake()
     {
