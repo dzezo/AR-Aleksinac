@@ -6,7 +6,7 @@ SpriteAtlas:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: NATO
+  m_Name: SumatovacAtlas
   m_EditorData:
     serializedVersion: 2
     textureSettings:
@@ -30,21 +30,19 @@ SpriteAtlas:
       enableTightPacking: 1
     variantMultiplier: 1
     packables:
-    - {fileID: 102900000, guid: 16d1608fb60dc2a42a9898d73035829f, type: 3}
-    totalSpriteSurfaceArea: 1625075
+    - {fileID: 102900000, guid: 21b88e5edaebe1f42bbc051a31c3a43f, type: 3}
+    totalSpriteSurfaceArea: 4668000
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
-  - {fileID: 21300000, guid: 5c8aa4d14bb161a41b24f2bef2b81f73, type: 3}
-  - {fileID: 21300000, guid: 5b63bc78e64b0c242b2c4cf2d4bf86d5, type: 3}
-  - {fileID: 21300000, guid: 49d3a9595d8b72d4c9e6158e9e91cb2c, type: 3}
-  - {fileID: 21300000, guid: b05f34adaffe0b247a6a66818941bb61, type: 3}
-  - {fileID: 21300000, guid: adb836df8ab226244851604fed6af2e9, type: 3}
+  - {fileID: 21300000, guid: 4eeeff81adf41a34d9d009dc5686c575, type: 3}
+  - {fileID: 21300000, guid: 070af47633dca1d469c90758394a0c63, type: 3}
+  - {fileID: 21300000, guid: 05c1a0181d77aad43b574ef2e1d963c2, type: 3}
+  - {fileID: 21300000, guid: 6583d4bfd91365545840ba1d2a4d31a6, type: 3}
   m_PackedSpriteNamesToIndex:
-  - nato_Dom zdravlja i hitna pomoc
-  - nato_Ulica Vuka Karadzica
-  - nato_Ulica Dusana Trivunca
-  - nato_U Dusana Trivunca je poginulo sedam osoba
-  - nato_Zabrinuti gradjani
-  m_Tag: NATO
+  - Crkva Sv. Trojice na Sumatovcu
+  - Pogibija kapetana Zivana Protica
+  - Spomen obelezje na Sumatovcu
+  - Vojna karta bitke na Sumatovcu
+  m_Tag: SumatovacAtlas
   m_IsVariant: 0

@@ -2,16 +2,34 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-// Skripta se postavlja na panel za izbor jezika, 
-// a na dugmetu se postavlja OnClick actionListener koji poziva LoadText f-ju
+// Skripta se postavlja na panel za izbor jezika
 public class LoadLocalizedText : MonoBehaviour
 {
     // Canvas glavnog menija
     private GameObject menuCanvas;
 
+    // Elementi panela koji se prikazuju pri prvom koriscenju
+    [Tooltip("Elementi koji se prikazuju pri prvom koriscenju")]
+    public GameObject[] defaultElements;
+
+    // Elementi koji se prikazuju kada se na panel vrati iz menija
+    [Tooltip("Elementi koji se prikazuju kada se dodje preko menija")]
+    public GameObject[] elements;
+
     private void Start()
     {
         menuCanvas = GameObject.FindWithTag("MasterCanvas");
+
+        // Ukoliko stack nije prazan (jezik se bira iz menija) prikazi odgovarajuce elemente
+        if (ApplicationManager.instance.GetPanelsCount() != 0)
+        {
+            // Broj elemenata u oba niza mora biti jednak
+            for (int i = 0; i < defaultElements.Length; i++)
+            {
+                defaultElements[i].SetActive(false);
+                elements[i].SetActive(true);
+            }
+        }
     }
 
     // Bira metodu za ucitavanje lokalizovanog teksta prema platformi na kojoj se aplikacija izvrsava

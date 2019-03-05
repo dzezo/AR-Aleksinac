@@ -23,7 +23,7 @@ SpriteAtlas:
     platformSettings:
     - serializedVersion: 2
       m_BuildTarget: DefaultTexturePlatform
-      m_MaxTextureSize: 4096
+      m_MaxTextureSize: 2048
       m_ResizeAlgorithm: 0
       m_TextureFormat: -1
       m_TextureCompression: 1
@@ -42,7 +42,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 50e9f9416b69bd84b934581224dacaac, type: 3}
-    totalSpriteSurfaceArea: 6207747
+    totalSpriteSurfaceArea: 7250747
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
@@ -50,6 +50,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 6dc86113f15530f468e0ab793730eb5c, type: 3}
   - {fileID: 21300000, guid: ace2bd34b8bcdef40a5df2c386d29536, type: 3}
   - {fileID: 21300000, guid: 1e12e7949ff9bec4c818aae8abc17b16, type: 3}
+  - {fileID: 21300000, guid: e6bdc8a50f8bab443a88409d4074771e, type: 3}
   - {fileID: 21300000, guid: 179f0cf5af9de2148bb918e9bc7ecd54, type: 3}
   - {fileID: 21300000, guid: 68e8644613dfcd347ae3405073b3ff58, type: 3}
   - {fileID: 21300000, guid: 146c42677d900c749ac3b0a8df26602a, type: 3}
@@ -65,6 +66,7 @@ SpriteAtlas:
   - 04.mapa
   - socijalno1
   - sup1
+  - langBackground
   - ujedinjenje1
   - background
   - gimnazija
