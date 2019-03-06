@@ -583,12 +583,12 @@ RectTransform:
   m_Children:
   - {fileID: 7778421742930705825}
   m_Father: {fileID: 247938698974693056}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 355.99997, y: -105.345}
-  m_SizeDelta: {x: 691.99994, y: 190.69}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8785113846231797535
 CanvasRenderer:
@@ -706,11 +706,11 @@ MonoBehaviour:
     lineCount: 4
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 1
+  m_havePropertiesChanged: 0
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_isInputParsingRequired: 1
+  m_isInputParsingRequired: 0
   m_inputSource: 0
   m_hasFontAssetChanged: 0
   m_subTextObjects:
@@ -1700,15 +1700,15 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 4769754631095437639}
   - {fileID: 4517686343293730805}
+  - {fileID: 4769754631095437639}
   m_Father: {fileID: 7741219515823469652}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: -150.28662}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1981875175277829092
 MonoBehaviour:
@@ -1854,12 +1854,12 @@ RectTransform:
   m_Children:
   - {fileID: 8013218191811618464}
   m_Father: {fileID: 247938698974693056}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 355.99997, y: -346.035}
-  m_SizeDelta: {x: 691.99994, y: 190.69}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &837968998927545586
 CanvasRenderer:
@@ -1900,8 +1900,8 @@ MonoBehaviour:
     \u043A\u0430 \u0437\u0433\u0440\u0430\u0434\u0438 \u0438 \u0437\u0430\u0432\u0438\u0440\u0438\u0442\u0435
     \u0443 \u043F\u0440\u043E\u0448\u043B\u043E\u0441\u0442."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 3bd86e7c5d3d7f94f8abb3e4ec43fbc0, type: 2}
-  m_sharedMaterial: {fileID: 21026135384649194, guid: 3bd86e7c5d3d7f94f8abb3e4ec43fbc0,
+  m_fontAsset: {fileID: 11400000, guid: cafc62038566d3f42979174d9ecb57aa, type: 2}
+  m_sharedMaterial: {fileID: 21529937250614524, guid: cafc62038566d3f42979174d9ecb57aa,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -1933,7 +1933,7 @@ MonoBehaviour:
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 35
-  m_fontStyle: 1
+  m_fontStyle: 0
   m_textAlignment: 264
   m_isAlignmentEnumConverted: 1
   m_characterSpacing: 0
@@ -1976,11 +1976,11 @@ MonoBehaviour:
     lineCount: 4
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 1
+  m_havePropertiesChanged: 0
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_isInputParsingRequired: 1
+  m_isInputParsingRequired: 0
   m_inputSource: 0
   m_hasFontAssetChanged: 0
   m_subTextObjects:

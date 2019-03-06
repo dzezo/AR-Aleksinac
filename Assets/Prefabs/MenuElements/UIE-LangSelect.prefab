@@ -128,7 +128,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 19.999968, y: -20.000122}
+  m_AnchoredPosition: {x: 19.999939, y: -20.000122}
   m_SizeDelta: {x: 75, y: 50}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &346554212785751469
@@ -510,7 +510,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0421\u0440\u043F\u0441\u043A\u0438"
+  m_Text: "\u040B\u0438\u0440\u0438\u043B\u0438\u0446\u0430"
 --- !u!1 &5096378108055532044
 GameObject:
   m_ObjectHideFlags: 0
@@ -698,7 +698,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Srpski
+  m_Text: Latinica
 --- !u!1 &5096378108326789310
 GameObject:
   m_ObjectHideFlags: 0
