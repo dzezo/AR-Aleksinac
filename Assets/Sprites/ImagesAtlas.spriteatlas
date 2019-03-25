@@ -42,12 +42,11 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 50e9f9416b69bd84b934581224dacaac, type: 3}
-    totalSpriteSurfaceArea: 7250747
+    totalSpriteSurfaceArea: 6811147
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 21300000, guid: a2219972c2481d94991d8ecb8c8f5234, type: 3}
-  - {fileID: 21300000, guid: 6dc86113f15530f468e0ab793730eb5c, type: 3}
   - {fileID: 21300000, guid: ace2bd34b8bcdef40a5df2c386d29536, type: 3}
   - {fileID: 21300000, guid: 1e12e7949ff9bec4c818aae8abc17b16, type: 3}
   - {fileID: 21300000, guid: e6bdc8a50f8bab443a88409d4074771e, type: 3}
@@ -61,9 +60,9 @@ SpriteAtlas:
   - {fileID: 21300000, guid: d3e09d9cbea55424592042127a7796d4, type: 3}
   - {fileID: 21300000, guid: 5c1844ceabf41d24d9a40ff672c90a1d, type: 3}
   - {fileID: 21300000, guid: 6b04bcafa9aeb5d4fbdb0200238322dc, type: 3}
+  - {fileID: 21300000, guid: 58b04fbf74cec7e48babb7c47b0ad667, type: 3}
   m_PackedSpriteNamesToIndex:
   - glavnaUlica
-  - 04.mapa
   - socijalno1
   - sup1
   - langBackground
@@ -77,5 +76,6 @@ SpriteAtlas:
   - crkva1
   - rudnik-manja
   - film
+  - mapaBitke
   m_Tag: ImagesAtlas
   m_IsVariant: 0

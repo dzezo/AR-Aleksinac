@@ -228,8 +228,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cbea56d7e42809f409aa818d22a149c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menuDefaultPanel: {fileID: 4241634303985673125, guid: 9747d8fb7ba27ca4b92433273bbf9641,
-    type: 3}
+  menuDefaultPanel: {fileID: 495, guid: 9747d8fb7ba27ca4b92433273bbf9641, type: 3}
   languagePanel: {fileID: 5096378108055532044, guid: b36a6d9d291b93343afd8822369bbffd,
     type: 3}
 --- !u!4 &1712548171
