@@ -219,7 +219,7 @@ MonoBehaviour:
     spaceCount: 241
     wordCount: 236
     linkCount: 0
-    lineCount: 31
+    lineCount: 34
     pageCount: 1
     materialCount: 2
   m_havePropertiesChanged: 0
@@ -769,7 +769,7 @@ MonoBehaviour:
     spaceCount: 183
     wordCount: 181
     linkCount: 0
-    lineCount: 24
+    lineCount: 27
     pageCount: 1
     materialCount: 2
   m_havePropertiesChanged: 0
@@ -1723,7 +1723,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -20, y: -20}
-  m_SizeDelta: {x: 70, y: 70}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 1, y: 1}
 --- !u!222 &5252606887245282669
 CanvasRenderer:
@@ -2237,7 +2237,7 @@ MonoBehaviour:
     spaceCount: 207
     wordCount: 208
     linkCount: 0
-    lineCount: 26
+    lineCount: 29
     pageCount: 1
     materialCount: 2
   m_havePropertiesChanged: 0

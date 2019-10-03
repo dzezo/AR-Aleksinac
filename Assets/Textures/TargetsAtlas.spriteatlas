@@ -29,26 +29,11 @@ SpriteAtlas:
       enableRotation: 0
       enableTightPacking: 0
     variantMultiplier: 1
-    packables:
-    - {fileID: 102900000, guid: cbb3229ababc0c04198abc0fbe6e1f1f, type: 3}
-    totalSpriteSurfaceArea: 4119625
+    packables: []
+    totalSpriteSurfaceArea: 0
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
-  m_PackedSprites:
-  - {fileID: 21300000, guid: 4e9b111021567b44ba9c7d2792ae9f6d, type: 3}
-  - {fileID: 21300000, guid: d05168636cd29bd49b8f7a0b661a456a, type: 3}
-  - {fileID: 21300000, guid: 7d8fe0a63160595439151e7827a33ce2, type: 3}
-  - {fileID: 21300000, guid: ff9106c971d6a0a408368f8056f571fe, type: 3}
-  - {fileID: 21300000, guid: 07923c4b53734e64fad82e8c60caa952, type: 3}
-  - {fileID: 21300000, guid: 7612affbfebc8f94da2d161d67a1b64d, type: 3}
-  - {fileID: 21300000, guid: acaaa89d60562ba49aaf6a89e918284b, type: 3}
-  m_PackedSpriteNamesToIndex:
-  - targetLjupce3
-  - targetSocijalno4
-  - targetSup0
-  - targetRuski2
-  - targetCrkva0
-  - targetUnikred4
-  - targetUjedinjenje1
+  m_PackedSprites: []
+  m_PackedSpriteNamesToIndex: []
   m_Tag: TargetsAtlas
   m_IsVariant: 0
