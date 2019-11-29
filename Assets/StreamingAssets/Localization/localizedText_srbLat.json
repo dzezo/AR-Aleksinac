@@ -5,8 +5,8 @@
 		{ "key": "txt_subtitle", "value": "kroz vreme"},
 		{ "key": "btn_aboutCity", "value": "o gradu" },
 		{ "key": "btn_augmentedReality", "value": "povratak u prošlost" },
-		{ "key": "btn_memorableCitizens", "value": "znameniti aleksinčani" },
-		{ "key": "btn_inWar", "value": "u ratovima" },
+		{ "key": "btn_memorableCitizens", "value": "znamenite\nličnosti" },
+		{ "key": "btn_inWar", "value": "u ratu" },
 		{ "key": "btn_credits", "value": "zahvalnica" },
 		{ "key": "txt_beta", "value": "Test faza!" },
 		
@@ -197,6 +197,3 @@
 
 	]
 }
-
-
-

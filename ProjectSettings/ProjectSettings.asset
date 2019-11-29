@@ -118,7 +118,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: 3.0
+  bundleVersion: 3.1
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -155,7 +155,7 @@ PlayerSettings:
   applicationIdentifier:
     Android: com.kulturaplusplus.aleksinackrozvreme
   buildNumber: {}
-  AndroidBundleVersionCode: 3
+  AndroidBundleVersionCode: 31
   AndroidMinSdkVersion: 17
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 1
@@ -244,7 +244,7 @@ PlayerSettings:
   AndroidTargetArchitectures: 3
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: C:/Users/PC-14/Desktop/Aleksinac/08. KEY/aleksinackrozvreme.keystore
+  AndroidKeystoreName: C:/Users/PC-14/Desktop/08. KEY/aleksinackrozvreme.keystore
   AndroidKeyaliasName: aleksinac kroz vreme key
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 0
